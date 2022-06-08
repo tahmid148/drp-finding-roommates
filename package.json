@@ -2,7 +2,7 @@
   "name": "drp-finding-roommates",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drp-finding-roommates.com",
+  "homepage": "https://tahmid148.github.io/drp-finding-roommates/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
