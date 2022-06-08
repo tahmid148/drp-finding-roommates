@@ -5,5 +5,5 @@ test("Header renders with correct text", () => {
   const component = render(<App />);
   const headerElem = component.getByTestId("header")
 
-  expect(headerElem.textContent).toBe("Hello World TESTING!")
+  expect(headerElem.textContent).toBe("IS THIS DEPLOYED?!")
 })
