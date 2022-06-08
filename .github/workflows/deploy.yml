@@ -13,8 +13,6 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 15
-      - run: git config --global user.email "tahmidrahman2812@outlook.com"
-      - run: git config --global user.name "tahmid148"    
       - run: npm ci
       - run: npm run build
-      - run: npm run deploy
+      - run: git config --global user.email "tahmidrahman2812@outlook.com" && git config --global user.name "tahmid148" && npm run deploy
