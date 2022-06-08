@@ -6,7 +6,7 @@ on:
 
 jobs:
   test_push:
-    runs_ons: ubuntu-latest
+    runs-ons: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
