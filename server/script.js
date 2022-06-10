@@ -13,15 +13,11 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', async (req, res) => {
-    try {
-        const hashedPassword = await bcrypt.hash(req.body.password, 10)
-        const newGuy = new User({ name: req.body.name,
-                                email: req.body.email,
-                                password: hashedPassword })
+        const newGuy = new User({ area: req.body.area,
+                                  occupation: req.body.occupation,
+                                  minRentPrice: req.body.minRentPrice,
+                                  maxRentPrice: req.body.maxRentPrice })
         newGuy.save().then(() => console.log("saved the dud"))
-    } catch {
-        console.log("sorry mate, id wat to do about this")
-    }
 })
 
-app.listen(3001)
+app.listen(3000)
