@@ -1,6 +1,6 @@
 import React from 'react';
-import { InputText } from '../InputText/InputText';
-import { LandingPage } from '../LandingPage/LandingPage';
+import InputText from '../InputText/InputText';
+import LandingPage from '../LandingPage/LandingPage';
 import './App.css';
 
 function App() {
