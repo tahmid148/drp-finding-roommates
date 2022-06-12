@@ -1,6 +1,5 @@
 import React from 'react';
 import InputText from '../InputText/InputText';
-import LandingPage from '../LandingPage/LandingPage';
 import profiles from './example-profiles.jpg'
 import './App.css';
 
