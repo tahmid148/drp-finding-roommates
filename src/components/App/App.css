@@ -31,6 +31,7 @@ body {
   margin: 1em 0 0 1em;
   font-size: 7vw;
   font-weight: 500;
+  animation: fadeInUp 1s;
 }
 
 span {
@@ -77,4 +78,17 @@ span {
 .find-out-more-btn:hover {
   background-color: #74D1AD;
   color: white;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
 }
