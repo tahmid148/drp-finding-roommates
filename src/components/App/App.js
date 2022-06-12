@@ -1,5 +1,4 @@
 import React from 'react';
-import InputText from '../InputText/InputText';
 import profiles from './example-profiles.jpg'
 import './App.css';
 
