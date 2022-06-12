@@ -17,7 +17,6 @@ function App() {
         <button className='get-started-btn'>Begin Your Journey</button>
         <button className='find-out-more-btn'>Find Out More</button>
       </div>
-      <InputText/>
     </div>
   );
 }
