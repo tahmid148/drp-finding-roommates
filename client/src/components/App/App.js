@@ -2,10 +2,12 @@ import React from 'react';
 import './App.css';
 import { NavigationBar } from '../NavigationBar/NavigationBar';
 
-function App() {
-  return (
-    <NavigationBar />
-  );
+export class App extends React.Component {
+  render() {
+    return (
+      <div className='page'>
+        <NavigationBar />
+      </div>
+    );
+  }
 }
-
-export default App;

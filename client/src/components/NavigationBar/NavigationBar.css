@@ -5,6 +5,18 @@
     padding: 1em;
   }
 
+.nav-header {
+  text-align: left;
+  margin: 0 0 0 1.5em;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+body {
+    text-align: center;
+    font-family: 'Raleway';
+  }  
+
 .container {
     width: 50px;
     height: 60px;
