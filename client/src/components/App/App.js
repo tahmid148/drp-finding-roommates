@@ -9,7 +9,7 @@ function App() {
         <p data-testid="header" className='nav-header'>Roomb</p>
       </nav>
       <div className='tagline-container'>
-        <h3 className='tagline'>Finding the best roommate for <span>you</span>.</h3>
+        <h3 className='tagline'>Finding the best roommate for TESTING<span>you</span>.</h3>
         <img src={profiles} alt='Example Profiles' className='profiles_img'/>
       </div>
       <div className='btn-container'>
