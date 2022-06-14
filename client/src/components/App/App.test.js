@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { App } from './App';
 
 test("Header renders with correct text", () => {
   const component = render(<App />);
