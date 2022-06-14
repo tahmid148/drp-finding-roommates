@@ -10,13 +10,14 @@
 
 .begin-btn {
   background-color: transparent;
-  border: 2px solid #e76f51;
+  border: 3px solid #e76f51;
   color: #e9c46a;
   font-size: 1.5vw;
   padding: 0.5em;
   border-radius: 10px;
   margin-right: 2em;
   font-family: 'Raleway';
+  width: 400px;
 }
 
 .begin-btn:hover {
@@ -25,13 +26,16 @@
 
 .more-btn {
     background-color: transparent;
-    border: 2px solid #e76f51;
+    border: 3px solid #e76f51;
     color: #e9c46a;
     font-size: 1.5vw;
     padding: 0.5em;
     border-radius: 10px;
     margin-right: 2em;
     font-family: 'Raleway';
+    width: 400px;
+    position: relative;
+    left: 50px;
   }
   
   .more-btn:hover {
