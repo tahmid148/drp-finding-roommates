@@ -3,11 +3,11 @@
 .create-profile {
   font-weight: bold;
   font-size: 2.5vw;
-  margin: 0.5em 0 0.5em -1em;
+  margin: 0.5em 0 0.5em -0.5em;
   width: 450px;
-  padding: 10px;
+  padding: 5px;
   border: 5px solid #e76f51;  
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #264653;
 }
 
@@ -19,9 +19,9 @@
   margin: 2.5em 0 5em 2em;
   width: 1400px;
   height: 500px;
-  padding: 10px;
+  padding: 5px;
   border: 5px solid #e9c46a;  
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: left;
 }
 
@@ -39,5 +39,123 @@
     margin-left: 5em;
 }
 
+.full-name {
+    color: white;
+    position: absolute;
+    top: 4.5em;
+    left: 2em;
+    font-size: 45px;
+}
 
+.full-name-answer {
+    position: absolute;
+    height: 2em;
+    width: 20em;
+    top: 0.8em;
+    left: 17em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
 
+.age {
+    color: white;
+    position: absolute;
+    top: 4.5em;
+    left: 15em;
+    font-size: 45px;
+}
+
+.age-answer {
+    position: absolute;
+    height: 2em;
+    width: 3em;
+    top: 0.8em;
+    left: 8em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.gender {
+    color: white;
+    position: absolute;
+    top: 4.5em;
+    left: 20em;
+    font-size: 45px;    
+}
+
+.gender-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.8em;
+    left: 13em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.about-you {
+    color: white;
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    font-size: 45px;    
+}
+
+.about-you-answer {
+    position: absolute;
+    height: 17em;
+    width: 98em;
+    top: 9em;
+    left: 0em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.budget1 {
+    color: white;
+    position: absolute;
+    top: 5em;
+    left: 10em;
+    font-size: 45px;    
+}
+
+.budget-answer1 {
+    position: absolute;
+    height: 2em;
+    width: 3em;
+    top: 4.75em;
+    left: 38.75em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.budget2 {
+    color: white;
+    position: absolute;
+    top: 5em;
+    left: 22.9em;
+    font-size: 45px;    
+}
+
+.budget-answer2 {
+    position: absolute;
+    height: 2em;
+    width: 3em;
+    top: 4.75em;
+    left: 4em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.next-btn {
+  background-color: #264653;
+  border: 3px solid #e76f51;
+  border-radius: 10px;
+  color: #e9c46a;
+  font-size: 1.5vw;
+  padding: 0.5em 2em;
+  font-family: 'Raleway';
+  position: absolute;
+  top: 26em;
+  left: 4em;
+}

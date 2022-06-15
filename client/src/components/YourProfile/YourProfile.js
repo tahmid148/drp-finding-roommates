@@ -13,28 +13,40 @@ export class YourProfile extends React.Component {
                 </nav>
 
                 <section className='fill-out-form'>
-                    <div>
-                        <span className='question-text name'>Full Name</span>
-                        <input className='answer-text' type='text' value='Name'></input>
-                        <span className='question-text age'>Age</span>
-                        <input className='answer-text' type='number' value=''></input>
-                        <span className='question-text gender'>Gender</span>
-                        <input className='answer-text' type='text' value=''></input>
-                    </div>
-                    <div>
-                        <span className='question-text about'>About You</span>
-                        <span className='question-text budget'>Weekly Budget Range £</span>
-                        <input className='answer-text budget1' type='number' value='20'></input>
-                        <span className='question-text'>to £</span>
-                        <input className='answer-text budget2' type='number' value='100'></input>
-                    </div>
-                    <input className='answer-text' type='text' value='I am an alcoholic...'></input>
+                    <span className='full-name'>
+                        Full Name
+                        <input className='full-name-answer' type='text' value=''></input>
+                    </span>
+                    <span className='age'>
+                        Age
+                        <input className='age-answer' type='number' value=''></input>
+                    </span>
+                    <span className='gender'>
+                        Gender
+                        <input className='gender-answer' type='text' value=''></input>
+                    </span>
+                    <span className='about-you'>
+                        <br></br>
+                        About You
+                        <input className='about-you-answer' type='text' value=''></input>
+                    </span>
+                    <span className='budget1'>
+                        <br></br>
+                        Weekly Budget Range: £
+                        <input className='budget-answer1' type='number' value=''></input>
+                    </span>
+                    <span className='budget2'>
+                        <br></br>
+                        to
+                        <input className='budget-answer2' type='number' value=''></input>
+                    </span>
+                    <Link to='/roommate-search'>
+                        <button className='next-btn'>
+                            Next 
+                        </button>
+                    </Link>
                 </section>
-                <Link to='/roommate-search'>
-                    <button className='title-box'>
-                        Next 
-                    </button>
-                </Link>
+
             </div>
         );
     }
