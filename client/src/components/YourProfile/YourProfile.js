@@ -6,31 +6,31 @@ export class YourProfile extends React.Component {
     render() {
         return (
             <div>
-                <header>
-                    <div>
-                        <p>Create Your Profile</p>
+                <header className='header'>
+                    <div className='title-box'>
+                        <p className='title'>Create Your Profile</p>
                     </div>
                 </header>
                 <section>
                     <div>
-                        <span>Full Name</span>
-                        <input type='text' value='Name'></input>
-                        <span>Age</span>
+                        <span className='question-text'>Full Name</span>
+                        <input className='answer-text' type='text' value='Name'></input>
+                        <span className='question-text'>Age</span>
                         <input type='number' value=''></input>
-                        <span>Gender</span>
+                        <span className='question-text'>Gender</span>
                         <input type='text' value=''></input>
                     </div>
                     <div>
-                        <span>About You</span>
-                        <span>Weekly Budget Range £</span>
+                        <span className='question-text'>About You</span>
+                        <span className='question-text'>Weekly Budget Range £</span>
                         <input type='number' value='20'></input>
-                        <span>to £</span>
+                        <span className='question-text'>to £</span>
                         <input type='number' value='100'></input>
                     </div>
-                    <input type='text' value='I am an alcoholic...'></input>
+                    <input className='answer-text' type='text' value='I am an alcoholic...'></input>
                 </section>
                 <Link to='/roommate-search'>
-                    <button>
+                    <button className='title-box'>
                         Next 
                     </button>
                 </Link>
