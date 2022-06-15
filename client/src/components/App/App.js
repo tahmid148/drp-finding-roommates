@@ -25,6 +25,7 @@ export class App extends React.Component {
             <Footer />
           </div>}  />
           <Route path='/profile' element={<YourProfile />} />
+          <Route path='/roommate-search' element={< />} />
           
         </Routes>
       </Router>
