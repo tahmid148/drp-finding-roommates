@@ -9,7 +9,7 @@
     color: #e76f51;
     text-align: left;
     margin: 1em 0 0 1em;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 400;
     animation: fadeInUp 1s;
   }
@@ -25,6 +25,12 @@
   margin: 20px 0 0 2em;
 }
 
+.profiles {
+  margin: 1px;
+  margin-left: 10em;
+  animation: fadeInUp 1s;
+  width: 21em;
+}
 
 @keyframes fadeInUp {
   from {
