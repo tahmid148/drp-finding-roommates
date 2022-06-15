@@ -15,17 +15,17 @@
     top: -60px;
   }
 
+
 .you {
     color: #e9c46a
 }
 
-.profiles {
-  position: relative;
-  top: 30px;
-  left: 150px;
-  height: 600px;
-  width: auto;
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 2em;
 }
+
 
 @keyframes fadeInUp {
   from {
