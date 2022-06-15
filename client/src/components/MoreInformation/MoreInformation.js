@@ -14,7 +14,7 @@ export class MoreInformation extends React.Component {
 
                 <div className='more-box-container'>
                     <div className='more-box1'>
-                        box1
+                        
                     </div>
                     <div className='more-box2'>
                         box2

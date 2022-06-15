@@ -16,7 +16,7 @@ export class InformationBoxes extends React.Component {
 
                 </div>
                 <div className='box3'>
-                    <img className='image-3' src='https://uc30bd0e9fa354e12af486e7fc09.previews.dropboxusercontent.com/p/thumb/ABlGc427RPqv83nvlcYMnekLzxhHE6FmOZiDg8a8Pz11A_pOGBcoEmsscCKOI807hvDYhjjegardblPe2aiZNQdEn-c8xgD8CjY8Zx4QMgwY-9fyxh5NNm5ZNBQgNWqolnQt_R7iuKwg-uqizMVRSJo2VlspvspG5lrSvIl4BmahJGUvx1tEhMMVoet3url351PND6DjnOyBgAdZmEvD66L1TVHQ6CDpuDbRY_BHuCK7U4vWbR2CRhp0U2Aj0soao0_XOdH5durTFZEWLyVHDMqUsAKQHnFiJWm2LVG8Roea1iaeUC9fC80wvJO8T0pEdm9VUpRoTrHXK7hJ-PARhmePL7tqn3AE4yncF8UqpRmDqi-LGP22-HNU4MbhhM76cYHMNjj-jFPuciEwl6ZO72yR181z3WCcoACus9APQpFkIQ/p.png'></img>
+                    <img className='image-3' alt='anything' src='https://uc30bd0e9fa354e12af486e7fc09.previews.dropboxusercontent.com/p/thumb/ABlGc427RPqv83nvlcYMnekLzxhHE6FmOZiDg8a8Pz11A_pOGBcoEmsscCKOI807hvDYhjjegardblPe2aiZNQdEn-c8xgD8CjY8Zx4QMgwY-9fyxh5NNm5ZNBQgNWqolnQt_R7iuKwg-uqizMVRSJo2VlspvspG5lrSvIl4BmahJGUvx1tEhMMVoet3url351PND6DjnOyBgAdZmEvD66L1TVHQ6CDpuDbRY_BHuCK7U4vWbR2CRhp0U2Aj0soao0_XOdH5durTFZEWLyVHDMqUsAKQHnFiJWm2LVG8Roea1iaeUC9fC80wvJO8T0pEdm9VUpRoTrHXK7hJ-PARhmePL7tqn3AE4yncF8UqpRmDqi-LGP22-HNU4MbhhM76cYHMNjj-jFPuciEwl6ZO72yR181z3WCcoACus9APQpFkIQ/p.png'></img>
                 </div>  
             </div>
           
