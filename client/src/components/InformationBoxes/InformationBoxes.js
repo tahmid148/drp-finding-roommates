@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef } from 'react';
+import React from 'react';
 import './InformationBoxes.css';
 
 export class InformationBoxes extends React.Component {

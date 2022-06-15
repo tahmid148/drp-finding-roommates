@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef } from 'react';
+import react from 'react';
 import './Buttons.css'
 
 export class Buttons extends React.Component {
