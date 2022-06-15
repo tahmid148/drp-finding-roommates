@@ -1,0 +1,56 @@
+.box-container {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content:left;
+    margin: 2em 0 2em 8em;
+    top: 300px;
+  }
+
+.box1 {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.image1 {
+    position: relative;
+    top: 30px;
+    width: 65%;
+    height: auto;
+}
+
+.helpingHeader {
+    position: relative;
+    top: 0px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.helpingText {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    width: 450px;
+    left: 25px;
+}
+
+.box2 {
+    position: relative;
+    left: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.box3 {
+    position: relative;
+    left: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+}
