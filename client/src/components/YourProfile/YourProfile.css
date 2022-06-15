@@ -159,3 +159,7 @@
   top: 26em;
   left: 4em;
 }
+
+.next-btn:hover {
+    background-color: rgba(231, 111, 81, 0.1);
+  }
