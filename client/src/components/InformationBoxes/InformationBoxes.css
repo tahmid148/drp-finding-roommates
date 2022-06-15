@@ -54,3 +54,16 @@
     height: 600px;
     border-radius: 5px;
 }
+
+.image-123 {
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+
+.image-3 {
+    position: relative;
+    top: 15px;
+    width: 75%;
+    height: auto;
+}
