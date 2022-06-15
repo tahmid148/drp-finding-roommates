@@ -14,3 +14,30 @@
 .to-orange {
     color: #e76f51
 }
+
+.fill-out-form {
+  margin: 2.5em 0 5em 2em;
+  width: 1400px;
+  height: 500px;
+  padding: 10px;
+  border: 5px solid #e9c46a;  
+  border-radius: 10px;
+  text-align: left;
+}
+
+.question-text {
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 1em;
+}
+
+.answer-text {
+    margin-left: 2em;
+}
+
+.budget {
+    margin-left: 5em;
+}
+
+
+
