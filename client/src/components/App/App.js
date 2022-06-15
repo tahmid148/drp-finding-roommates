@@ -6,18 +6,30 @@ import { Buttons } from '../Buttons/Buttons';
 import { InformationBoxes } from '../InformationBoxes/InformationBoxes';
 import { MoreInformation } from '../MoreInformation/MoreInformation';
 import { Footer } from '../Footer/Footer';
+import { YourProfile } from '../YourProfile/YourProfile';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 
 export class App extends React.Component {
   render() {
     return (
-      <div className='page'>
-        <NavigationBar />
-        <Tagline />
-        <Buttons />
-        <InformationBoxes />
-        <MoreInformation />
-        <Footer />
-      </div>
+      <Router>
+        <Routes>
+          <Route exact path='/' element={
+          <div className='page'>
+            <NavigationBar />
+            <Tagline />
+            <Buttons />
+            <InformationBoxes />
+            <MoreInformation />
+            <Footer />
+          </div>}  />
+          <Route path='/profile' element={<YourProfile />} />
+          
+        </Routes>
+      </Router>
+      
+      
     );
   }
 }
