@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+.create-profile {
+  font-weight: bold;
+  font-size: 2.5vw;
+  margin: 0.5em 0 0.5em -1em;
+  width: 450px;
+  padding: 10px;
+  border: 5px solid #e76f51;  
+  border-radius: 10px;
+  background-color: #264653;
+}
+
+.to-orange {
+    color: #e76f51
+}

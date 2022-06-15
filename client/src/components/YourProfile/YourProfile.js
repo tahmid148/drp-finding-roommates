@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './YourProfile.css'
+import './YourProfile.css';
 
 export class YourProfile extends React.Component {
     render() {
         return (
             <div>
-                <header className='header'>
-                    <div className='title-box'>
-                        <p className='title'>Create Your Profile</p>
-                    </div>
-                </header>
+                <nav className='navbar'>
+                    <p className='create-profile'>
+                        <span className='to-orange'>Create</span> <span className='you'>your</span> <span className='to-orange'>profile</span>
+                    </p>
+
+                </nav>
                 <section>
                     <div>
                         <span className='question-text'>Full Name</span>
