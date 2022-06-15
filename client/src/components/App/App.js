@@ -9,6 +9,7 @@ import { Footer } from '../Footer/Footer';
 import { YourProfile } from '../YourProfile/YourProfile';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
+import { RoommateSearchPage } from '../RoommateSearchPage/RoommateSearchPage';
 
 export class App extends React.Component {
   render() {
@@ -25,7 +26,7 @@ export class App extends React.Component {
             <Footer />
           </div>}  />
           <Route path='/profile' element={<YourProfile />} />
-          <Route path='/roommate-search' element={< />} />
+          <Route path='/roommate-search' element={<RoommateSearchPage />} />
           
         </Routes>
       </Router>
