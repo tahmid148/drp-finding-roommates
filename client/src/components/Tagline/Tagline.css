@@ -19,6 +19,13 @@
     color: #e9c46a
 }
 
+.profiles {
+  position: relative;
+  top: 30px;
+  left: 150px;
+  height: 600px;
+  width: auto;
+}
 
 @keyframes fadeInUp {
   from {
