@@ -7,5 +7,5 @@ This app will hopefully allow students looking for an accomadation also find the
 The link for the project is:
 
 ```
-https://tahmid148.github.io/drp-finding-roommates/
+https://drp-finding-roomates.herokuapp.com/
 ```
