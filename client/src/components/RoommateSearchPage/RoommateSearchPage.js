@@ -1,34 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import userService from '../../services/user';
 import './RoommateSearchPage.css';
 
 const RoommateSearchPage = () => {
-    let users = [
-        {
-            name: "bob",
-            age: 21,
-            id: 1
-        },
-        {
-            name: "blob",
-            age: 22,
-            id: 2
-        },
-        {
-            name: "boring blob",
-            age: 23,
-            id: 3
-        },
-        {
-            name: "blob king",
-            age: 21,
-            id: 4
-        },
-        {
-            name: "cool dud",
-            age: 25,
-            id: 5
-        }
-    ]
+    const [users, setUsers] = useState([])
+    useEffect(() => {
+        userService.getAll().then(initialUsers => {
+            setUsers(initialUsers)
+        })
+    }, [])
     return (
         <div>
             <h2>Roommate Search Page</h2>
