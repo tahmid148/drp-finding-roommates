@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { NavigationBar } from '../NavigationBar/NavigationBar';
 import { Tagline } from '../Tagline/Tagline';
@@ -8,28 +8,28 @@ import { Footer } from '../Footer/Footer';
 import { YourProfile } from '../YourProfile/YourProfile';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import { RoommateSearchPage } from '../RoommateSearchPage/RoommateSearchPage';
+import RoommateSearchPage from '../RoommateSearchPage/RoommateSearchPage';
 
-export class App extends React.Component {
-  render() {
+const App = () => {
     return (
-      <Router>
-        <Routes>
-          <Route exact path='/' element={
-          <div className='page'>
-            <NavigationBar />
-            <Tagline />
-            <InformationBoxes />
-            <MoreInformation />
-            <Footer />
-          </div>}  />
-          <Route path='/profile' element={<YourProfile />} />
-          <Route path='/roommate-search' element={<RoommateSearchPage />} />
-          
-        </Routes>
-      </Router>
-      
-      
-    );
-  }
+    <Router>
+      <Routes>
+        <Route exact path='/' element={
+        <div className='page'>
+          <NavigationBar />
+          <Tagline />
+          <InformationBoxes />
+          <MoreInformation />
+          <Footer />
+        </div>}  />
+        <Route path='/profile' element={<YourProfile />} />
+        <Route path='/roommate-search' element={<RoommateSearchPage />} />
+        
+      </Routes>
+    </Router>
+    
+    
+  )
 }
+
+export default App
