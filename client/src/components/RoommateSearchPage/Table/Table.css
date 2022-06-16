@@ -1,0 +1,28 @@
+
+.profile-table {
+    margin: 2.5em 0 0 10em;
+    font-size: 50px;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.first-column {
+    width: 10em;
+}
+
+.second-column {
+    width: 17em;
+}
+
+.name {
+    font-size: 40px;
+    text-align: center;
+}
+
+.profile {
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    
+}
