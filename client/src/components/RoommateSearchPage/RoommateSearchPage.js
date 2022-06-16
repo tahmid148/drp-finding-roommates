@@ -3,9 +3,11 @@ import './RoommateSearchPage.css';
 
 const RoommateSearchPage = () => {
     return (
-        <div>
-            <h1>Roommate Search Page</h1>
-        
+        <div className='big-container'>
+            <div className='container'>
+                <div className='filterbox'>hello</div>
+                <div className='userbox'></div>
+            </div>
         </div>
     )
 }
