@@ -42,6 +42,9 @@
 }
 
 .user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #2A9D8F;
   color: aliceblue;
   margin: 1px;
@@ -50,4 +53,5 @@
   height: 25vh;
   width: 72vw;
   border-radius: 10px;
+  text-align: center;
 }

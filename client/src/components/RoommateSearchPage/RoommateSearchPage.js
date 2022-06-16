@@ -38,8 +38,9 @@ const RoommateSearchPage = () => {
                     {users.map(user => {
                         return (
                             <div className='user-card' key={user.id}>
-                                Name: {user.name} <br></br>
-                                Age: {user.age}
+                                <p><strong>Name:</strong> {user.name}</p> 
+                                <p><strong>Age:</strong> {user.age}</p> 
+                                <p><strong>Info:</strong> {user.info}</p> 
                             </div>)
                     })}
                 </div>
