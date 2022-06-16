@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import { NavigationBar } from '../NavigationBar/NavigationBar';
 import { Tagline } from '../Tagline/Tagline';
