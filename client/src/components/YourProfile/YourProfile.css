@@ -103,12 +103,13 @@
 
 .about-you-answer {
     position: absolute;
-    height: 17em;
-    width: 98em;
-    top: 9em;
+    height: 13em;
+    width: 60em;
+    top: 7em;
     left: 0em;
     background-color: #f8b3e1;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 .budget1 {

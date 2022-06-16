@@ -9,6 +9,7 @@ import { YourProfile } from '../YourProfile/YourProfile';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import RoommateSearchPage from '../RoommateSearchPage/RoommateSearchPage';
+import ExampleProfile1 from '../ExampleProfile1/ExampleProfile1';
 import {NavigationBar as NavBar} from '../RoommateSearchPage/NavigationBar/NavigationBar';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Footer />
         </div>}  />
         <Route path='/profile' element={<YourProfile />} />
+        <Route path='/example-profile1' element={<ExampleProfile1 />} />
         <Route path='/roommate-search' element={
         <div>
           <NavBar />

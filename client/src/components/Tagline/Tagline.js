@@ -29,7 +29,7 @@ export class Tagline extends React.Component {
 
                 </div>
                 <div className='profile-container'>
-                    <img className='profiles' src={profile1} alt='peoples profiles'></img>
+                    <a href="example-profile1"><img className='profiles' src={profile1} alt='peoples profiles'></img></a>
                     <img className='profiles' src={profile2} alt='peoples profiles'></img>
                     <img className='profiles' src={profile3} alt='peoples profiles'></img>
                 </div>
