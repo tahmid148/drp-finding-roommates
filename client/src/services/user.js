@@ -18,5 +18,10 @@ const getAll = () => {
 //   return request.then(response => response.data)
 // } 
 
+const object = { 
+  getAll: getAll
+  // create: create, 
+  // update: update 
+}
 
-export default { getAll/*, create, update*/ }
+export default object
