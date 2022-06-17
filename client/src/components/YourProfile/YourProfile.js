@@ -29,13 +29,12 @@ export class YourProfile extends React.Component {
                                 <option value='female'>Female</option>
                             </select>
                         </span>
-                        <span className='about-you'>
-                            <br></br>
-                            About You
-                            <textarea className='about-you-answer' type='text'  name="info"
-                            placeholder='I am a second year student at Imperial College with a focus in engineering. 
-                            I am a day person and I hate late night parties......'>
-                            </textarea>
+                        <span className='personality'>
+                            Personality
+                            <select className='personality-answer' name='personality'>
+                                <option value='introvert'>Introvert</option>
+                                <option value='extravert'>Extravert</option>
+                            </select>
                         </span>
                         <span className='budget1' name="">
                             <br></br>
@@ -46,6 +45,35 @@ export class YourProfile extends React.Component {
                             <br></br>
                             to
                             <input className='budget-answer2' type='number' placeholder='500' name="budgetMax"></input>
+                        </span>
+                        <span className='smokes'>
+                            Smokes
+                            <select className='smokes-answer' name='smokes'>
+                                <option value='yes'>Yes</option>
+                                <option value='no'>No</option>
+                            </select>
+                        </span>
+                        <span className='life-style'>
+                            Life style
+                            <select className='life-style-answer' name='life-style'>
+                                <option value='day-person'>Day Person</option>
+                                <option value='night-person'>Night Person</option>
+                            </select>
+                        </span>
+                        <span className='pets'>
+                            Pets
+                            <select className='pets-answer' name='pets'>
+                                <option value='yes'>Yes</option>
+                                <option value='no'>No</option>
+                            </select>
+                        </span>
+                        <span className='about-you'>
+                            <br></br>
+                            About You
+                            <textarea className='about-you-answer' type='text'  name="info"
+                            placeholder='I am a second year student at Imperial College with a focus in engineering. 
+                            I hate late night parties......'>
+                            </textarea>
                         </span>
                         {/* <Link to='/roommate-search'> */}
                             <button type="submit" className='next-btn'>

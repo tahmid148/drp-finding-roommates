@@ -18,7 +18,7 @@
 .fill-out-form {
   margin: 2.5em 0 5em 2em;
   width: 1400px;
-  height: 500px;
+  height: 750px;
   padding: 5px;
   border: 5px solid #e9c46a;  
   border-radius: 5px;
@@ -93,10 +93,82 @@
     border-radius: 5px;
 }
 
+.personality {
+    color: white;
+    position: absolute;
+    top: 6.2em;
+    left: 2em;
+    font-size: 45px;   
+}
+
+.personality-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.8em;
+    left: 19em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.smokes {
+    color: white;
+    position: absolute;
+    top: 8em;
+    left: 2em;
+    font-size: 45px;   
+}
+
+.smokes-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.8em;
+    left: 15em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.life-style {
+    color: white;
+    position: absolute;
+    top: 8em;
+    left: 11em;
+    font-size: 45px;   
+}
+
+.life-style-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.8em;
+    left: 16.4em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.pets {
+    color: white;
+    position: absolute;
+    top: 8em;
+    left: 20em;
+    font-size: 45px;   
+}
+
+.pets-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.8em;
+    left: 10em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
 .about-you {
     color: white;
     position: absolute;
-    top: 5em;
+    top: 8.7em;
     left: 2em;
     font-size: 45px;    
 }
@@ -116,7 +188,7 @@
     color: white;
     position: absolute;
     top: 5em;
-    left: 10em;
+    left: 12em;
     font-size: 45px;    
 }
 
@@ -125,7 +197,7 @@
     height: 2em;
     width: 3em;
     top: 4.75em;
-    left: 38.75em;
+    left: 39.75em;
     background-color: #f8b3e1;
     border-radius: 5px;
 }
@@ -134,7 +206,7 @@
     color: white;
     position: absolute;
     top: 5em;
-    left: 22.9em;
+    left: 25.3em;
     font-size: 45px;    
 }
 
@@ -157,7 +229,7 @@
   padding: 0.5em 2em;
   font-family: 'Raleway';
   position: absolute;
-  top: 26em;
+  top: 31em;
   left: 4em;
 }
 
