@@ -39,12 +39,12 @@ export class YourProfile extends React.Component {
                         <span className='budget1' name="">
                             <br></br>
                             Weekly Budget Range: £
-                            <input className='budget-answer1' type='number' placeholder='0' name="budgetMin"></input>
+                            <input className='budget-answer1' type='number' placeholder='0' name="min_budget"></input>
                         </span>
                         <span className='budget2'>
                             <br></br>
                             to
-                            <input className='budget-answer2' type='number' placeholder='500' name="budgetMax"></input>
+                            <input className='budget-answer2' type='number' placeholder='500' name="max_budget"></input>
                         </span>
                         <span className='smokes'>
                             Smokes
@@ -55,14 +55,14 @@ export class YourProfile extends React.Component {
                         </span>
                         <span className='life-style'>
                             Life style
-                            <select className='life-style-answer' name='life-style'>
+                            <select className='life-style-answer' name='lifestyle'>
                                 <option value='day-person'>Day Person</option>
                                 <option value='night-person'>Night Person</option>
                             </select>
                         </span>
                         <span className='pets'>
                             Pets
-                            <select className='pets-answer' name='pets'>
+                            <select className='pets-answer' name='has_pets'>
                                 <option value='yes'>Yes</option>
                                 <option value='no'>No</option>
                             </select>

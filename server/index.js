@@ -23,6 +23,13 @@ mongoose.connect(url)
 const userSchema = new mongoose.Schema({
   name: String,
   age: String,
+  gender: String,
+  personality: String,
+  min_budget: String,
+  max_budget: String,
+  smokes: String,
+  lifestyle: String,
+  has_pets: String,
   info: String
 })
 
@@ -36,7 +43,18 @@ app.get("/api/users", (req, res) => {
 });
 
 app.post("/profile", async (req, res) => {
-  const user = new User({ name: req.body.name, age: req.body.age, info: req.body.info })
+  const user = new User({ 
+    name: req.body.name, 
+    age: req.body.age, 
+    gender: req.body.gender,
+    personality: req.body.personality,
+    min_budget: req.body.min_budget,
+    max_budget: req.body.max_budget,
+    smokes: req.body.smokes,
+    lifestyle: req.body.lifestyle,
+    has_pets: req.body.has_pets,
+    info: req.body.info 
+  })
   await user.save()
   res.redirect('/roommate-search')
 })

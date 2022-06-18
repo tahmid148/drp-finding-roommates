@@ -53,5 +53,10 @@
   height: 25vh;
   width: 72vw;
   border-radius: 10px;
-  text-align: center;
+}
+
+.view-more-btn {
+  width: 12vw;
+  margin-left: 30vw;
+  margin-bottom: 1vh;
 }
