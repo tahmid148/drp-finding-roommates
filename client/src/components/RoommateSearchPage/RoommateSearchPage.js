@@ -23,6 +23,10 @@ const RoommateSearchPage = () => {
             setUsers(users.filter(user => user.gender === 'male'))
         } else if (idArr.includes('female')) {
             setUsers(users.filter(user => user.gender === 'female'))
+        } else if (idArr.includes('night-person')) {
+            setUsers(users.filter(user => user.lifestyle === 'night-person'))
+        } else if (idArr.includes('day-person')) {
+            setUsers(users.filter(user => user.lifestyle === 'day-person'))
         } else if (idArr.includes('introvert')) {
             setUsers(users.filter(user => user.personality === 'introvert'))
         } else if (idArr.includes('extravert')) {
