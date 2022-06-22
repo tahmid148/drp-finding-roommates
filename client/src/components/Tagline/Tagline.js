@@ -19,7 +19,7 @@ export class Tagline extends React.Component {
                     <div className='btn-container'>
                         <Link to='/profile'>
                             <button className='begin-btn'>
-                                Begin Your Journey
+                                Begin Your Journey Now
                             </button>
                         </Link>
                     </div>
