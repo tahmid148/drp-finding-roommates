@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 
-.page {
-  background-color: #264653;
-  min-height: 300vh;
+.navbar {
+  background-color: #2a9d8f;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homeButton {
+  font-weight: bold;
+  font-size: 2.5vw;
+  margin: 0.5em 0 0.5em 2em;
+}
+
+.login {
+  font-size: 2vw;
+  margin-right: 2em;
 }
