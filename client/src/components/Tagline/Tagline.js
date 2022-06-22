@@ -57,13 +57,9 @@ const Tagline = (colorMode) => {
                     <a href="example-profile1"><img className='profiles' src={james} alt='peoples profiles'></img></a>
                     <img className='profiles' src={huixin} alt='peoples profiles'></img>
                     <img className='profiles' src={paulo} alt='peoples profiles'></img>
-<<<<<<< HEAD
                     <img className='profiles' src={estibon} alt='peoples profiles'></img>
                 </div>
-=======
->>>>>>> e3debf47e9883de360b442a12daa5aacbf50c6ec
             </div>
-        </div>
     )
 }
 

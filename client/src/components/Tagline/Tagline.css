@@ -23,18 +23,18 @@
   display: grid;
   /* flex-direction: grid; */
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 6%;
-  margin-left: 2%;
+  margin-top: 5%;
+  margin-right: 5%;
 
 }
 
 .profiles {
-  margin-left: 40px;
-  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-bottom: 0px;
   /* margin-left: 0.2em;
   margin-top: 0.2em; */
   animation: fadeInUp 1s;
-  width: 24em;
+  width: 22em;
 }
 
 @keyframes fadeInUp {
