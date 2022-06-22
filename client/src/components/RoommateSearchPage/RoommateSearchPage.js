@@ -43,10 +43,8 @@ const RoommateSearchPage = () => {
             const id = allBoxes[i].id;
             if(document.querySelector(`#${id}`).checked) {
                 idArr.push(id)
-                console.log(`${id} is checked`);
             }
         }
-        console.log(idArr);
         filterWithIds(idArr)
         
     }
