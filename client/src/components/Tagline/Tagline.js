@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import profile1 from './eg-profile-1.svg'
 import profile2 from './eg-profile-2.svg'
 import profile3 from './eg-profile-3.svg'
+import james from './james.png'
+import huixin from './huixin.png'
+import paulo from './paulo.png'
 
 export class Tagline extends React.Component {
     scrollToInfo() {
@@ -19,16 +22,16 @@ export class Tagline extends React.Component {
                     <div className='btn-container'>
                         <Link to='/profile'>
                             <button className='begin-btn'>
-                                Begin Your Journey Now
+                                Begin Your Journey
                             </button>
                         </Link>
                     </div>
 
                 </div>
                 <div className='profile-container'>
-                    <a href="example-profile1"><img className='profiles' src={profile1} alt='peoples profiles'></img></a>
-                    <img className='profiles' src={profile2} alt='peoples profiles'></img>
-                    <img className='profiles' src={profile3} alt='peoples profiles'></img>
+                    <a href="example-profile1"><img className='profiles' src={james} alt='peoples profiles'></img></a>
+                    <img className='profiles' src={huixin} alt='peoples profiles'></img>
+                    <img className='profiles' src={paulo} alt='peoples profiles'></img>
                 </div>
             </div>
         );
