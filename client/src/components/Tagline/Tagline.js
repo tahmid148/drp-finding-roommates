@@ -7,6 +7,7 @@ import profile3 from './eg-profile-3.svg'
 import james from './james.png'
 import huixin from './huixin.png'
 import paulo from './paulo.png'
+import estibon from './estibon.png'
 
 export class Tagline extends React.Component {
     scrollToInfo() {
@@ -32,6 +33,7 @@ export class Tagline extends React.Component {
                     <a href="example-profile1"><img className='profiles' src={james} alt='peoples profiles'></img></a>
                     <img className='profiles' src={huixin} alt='peoples profiles'></img>
                     <img className='profiles' src={paulo} alt='peoples profiles'></img>
+                    <img className='profiles' src={estibon} alt='peoples profiles'></img>
                 </div>
             </div>
         );

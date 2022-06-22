@@ -9,7 +9,7 @@
     color: #e76f51;
     text-align: left;
     margin: 1em 0 0 1em;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 400;
     animation: fadeInUp 1s;
   }
@@ -20,17 +20,21 @@
 }
 
 .profile-container {
-  display: flex;
-  flex-direction: column;
-  margin: 10em 0 0 0;
+  display: grid;
+  /* flex-direction: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 6%;
+  margin-left: 2%;
 
 }
 
 .profiles {
-  margin: 1px;
-  margin-left: 26em;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  /* margin-left: 0.2em;
+  margin-top: 0.2em; */
   animation: fadeInUp 1s;
-  width: 21em;
+  width: 24em;
 }
 
 @keyframes fadeInUp {
@@ -55,7 +59,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content:left;
-    margin: 4em 0 2em 16em;
+    margin: 4em 0 2em 4em;
 }
 
 .begin-btn {
@@ -64,8 +68,8 @@
   border-radius: 10px;
   color: #e9c46a;
   font-size: 1.5vw;
-  padding: 1.5em 5em;
-  margin-right: 4em;
+  padding: 0.5em 1em;
+  margin-right: 0em;
   font-family: 'Raleway';
   animation: fadeInUp 1.1s;
 }
