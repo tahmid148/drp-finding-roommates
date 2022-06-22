@@ -14,9 +14,7 @@ const RoommateSearchPage = () => {
     }, [])
 
     const filterWithIds = (idArr) => {
-        if(idArr.length === 0) {
-            setUsers(allUsers)
-        }
+        setUsers(allUsers)
 
         if(idArr.includes('male') && idArr.includes('female')) {
         } else if (idArr.includes('introvert') && idArr.includes('extravert')) {
