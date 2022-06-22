@@ -18,7 +18,7 @@
 .fill-out-form {
   margin: 2.5em 0 5em 2em;
   width: 1400px;
-  height: 750px;
+  height: 1100px;
   padding: 5px;
   border: 5px solid #e9c46a;  
   border-radius: 5px;
@@ -124,25 +124,25 @@
     height: 2em;
     width: 10em;
     top: 0.8em;
-    left: 15em;
+    left: 26em;
     background-color: #f8b3e1;
     border-radius: 5px;
 }
 
-.life-style {
+.hygiene {
     color: white;
     position: absolute;
     top: 8em;
-    left: 11em;
+    left: 14em;
     font-size: 45px;   
 }
 
-.life-style-answer {
+.hygiene-answer {
     position: absolute;
     height: 2em;
     width: 10em;
     top: 0.8em;
-    left: 16.4em;
+    left: 29.4em;
     background-color: #f8b3e1;
     border-radius: 5px;
 }
@@ -150,8 +150,8 @@
 .pets {
     color: white;
     position: absolute;
-    top: 8em;
-    left: 20em;
+    top: 9.8em;
+    left: 2em;
     font-size: 45px;   
 }
 
@@ -160,7 +160,77 @@
     height: 2em;
     width: 10em;
     top: 0.8em;
-    left: 10em;
+    left: 31em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.over {
+    color: white;
+    position: absolute;
+    top: 11.5em;
+    left: 2em;
+    font-size: 45px;   
+}
+
+.over-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.8em;
+    left: 54em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.instruments {
+    color: white;
+    position: absolute;
+    top: 13.3em;
+    left: 2em;
+    font-size: 45px;
+}
+
+.instruments-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.7em;
+    left: 74em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.sleeptime {
+    color: white;
+    position: absolute;
+    top: 15.1em;
+    left: 2em;
+    font-size: 45px;
+}
+
+.sleeptime-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.7em;
+    background-color: #f8b3e1;
+    border-radius: 5px;
+}
+
+.wakeuptime {
+    color: white;
+    position: absolute;
+    top: 15.1em;
+    left: 15em;
+    font-size: 45px;
+}
+
+.wakeuptime-answer {
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    top: 0.7em;
     background-color: #f8b3e1;
     border-radius: 5px;
 }
@@ -168,7 +238,7 @@
 .about-you {
     color: white;
     position: absolute;
-    top: 8.7em;
+    top: 15.6em;
     left: 2em;
     font-size: 45px;    
 }
@@ -229,7 +299,7 @@
   padding: 0.5em 2em;
   font-family: 'Raleway';
   position: absolute;
-  top: 31em;
+  top: 43em;
   left: 4em;
 }
 
