@@ -47,25 +47,45 @@ export class YourProfile extends React.Component {
                             <input className='budget-answer2' type='number' placeholder='500' name="max_budget"></input>
                         </span>
                         <span className='smokes'>
-                            Smokes
+                            Do you smoke?
                             <select className='smokes-answer' name='smokes'>
                                 <option value='yes'>Yes</option>
                                 <option value='no'>No</option>
                             </select>
                         </span>
-                        <span className='life-style'>
-                            Life style
-                            <select className='life-style-answer' name='lifestyle'>
-                                <option value='day-person'>Day Person</option>
-                                <option value='night-person'>Night Person</option>
+                        <span className='hygiene'>
+                        Hygiene Situation
+                            <select className='hygiene-answer' name='hygiene'>
+                                <option value='tidy'>Tidy</option>
+                                <option value='messy'>Messy</option>
                             </select>
                         </span>
                         <span className='pets'>
-                            Pets
+                            Do you have pets?
                             <select className='pets-answer' name='has_pets'>
                                 <option value='yes'>Yes</option>
                                 <option value='no'>No</option>
                             </select>
+                        </span>
+                        <span className='over'>
+                            How often you have friends over?
+                            <select className='over-answer' name='over'>
+                                <option value='everyday'>Everyday</option>
+                                <option value='everyweek'>Everyweek</option>
+                                <option value='everymonth'>Everymonth</option>
+                            </select>
+                        </span>
+                        <span className='instruments'>
+                            Do you play any instruments? If yes, what is it?
+                            <input className='instruments-answer' type='text' placeholder='Cello' name="instruments"></input>
+                        </span>
+                        <span className='sleeptime'>
+                            Sleep schedule: from 
+                            <input className='sleeptime-answer' type='number' placeholder='23' name="sleeptime"></input>
+                        </span>
+                        <span className='wakeuptime'>
+                            to
+                            <input className='wakeuptime-answer' type='number' placeholder='6' name="wakeuptime"></input>
                         </span>
                         <span className='about-you'>
                             <br></br>
