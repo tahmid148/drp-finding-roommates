@@ -22,9 +22,6 @@ export class Tagline extends React.Component {
                                 Begin Your Journey
                             </button>
                         </Link>
-                        <button className='more-btn' onClick={this.scrollToInfo}>
-                            Find Out More
-                        </button>
                     </div>
 
                 </div>
