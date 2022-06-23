@@ -3,16 +3,24 @@
 .create-profile {
   font-weight: bold;
   font-size: 2.5vw;
-  margin: 0.5em 0 0.5em -0.5em;
-  width: 450px;
-  padding: 5px;
-  border: 5px solid #e76f51;  
-  border-radius: 5px;
-  background-color: #264653;
+}
+
+.navbar{
+    background-color: #2a9d8f;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .to-orange {
-    color: #e76f51
+    color: #e76f51;
+    font-size: 4.5vw;
+}
+
+.to-yellow {
+    color: #e9c46a;
+    font-size: 4.5vw;
 }
 
 .fill-out-form {
@@ -262,4 +270,12 @@
 
 .next-btn:hover {
     background-color: rgba(231, 111, 81, 0.1);
+}
+
+.bigBox {
+    border: solid;
+    width: 85%;
+    position: relative;
+    left: 10%;
+
 }
