@@ -33,7 +33,7 @@ const YourProfile = ({state}) => {
             </p>
             <div className="bigBox">
                 <form action="profile" method="POST">
-                    <input type="text" placeholder="name"></input>
+                    {/* <input type="text" placeholder="name"></input>
                     <input type="text" placeholder="age"></input>
                     <input type="text" placeholder="gender"></input>
                     <input type="text" placeholder="university"></input>
@@ -44,9 +44,38 @@ const YourProfile = ({state}) => {
                     <input type="text" placeholder="net worth"></input>
                     <input type="text" placeholder="budget range"></input>
                     <input type="text" placeholder="race"></input>
-                    <input type="text" placeholder="religion"></input>
+                    <input type="text" placeholder="religion"></input> */}
+                    <input type="file" id="uploadBgInput" hidden="hidden"></input>
+                    <button type="button" id="uploadBgButton" className="uploadBg">Add Image</button>
+                    {/* <script type="text/javascript">
+                        const uploadBgInput = document.getElementById("uploadBgInput");
+                        const uploadBgButton = document.getElementById("uploadBgButtton");
+                        uploadBgButton.addEventListener("click", function() {
+                            uploadBgInput.click()
+                        });
+                    </script> */}
+                    <input type="file" id="uploadPpInput" hidden="hidden"></input>
+                    <button type="button" id="uploadPpButton" className="uploadPp">Add Image</button>
+                    {/* <script type="text/javascript">
+                        const uploadPpInput = document.getElementById("uploadPpInput");
+                        const uploadPpButton = document.getElementById("uploadPpButtton");
+                        uploadPpButton.addEventListener("click", function() {
+                            uploadPpInput.click()
+                        });
+                    </script> */}
+                    <input type="text" placeholder="Full Name" className="nameInput"></input>
+                    <input type="text" placeholder="Age" className="ageInput"></input>
+                    <br></br>
+                    <label className="budgetFromLabel">Budget From £</label>
+                    <label className="budgetToLabel">To</label>
+                    <input type="text" className="budgetFromInput"></input>
+                    <input type="text" className="budgetToInput"></input>
+                    <br></br>
+                    <label className="aboutLabel">About You</label>
+                    <br></br>
+                    <textarea type="text" className="aboutInput"></textarea>
                 </form>
-            </div>
+            </div> 
         </div>
     )
 }

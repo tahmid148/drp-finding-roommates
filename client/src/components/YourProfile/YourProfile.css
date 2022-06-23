@@ -2,7 +2,7 @@
 
 .create-profile {
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .navbar{
@@ -273,9 +273,123 @@
 }
 
 .bigBox {
-    border: solid;
-    width: 85%;
+    border: solid 1px;
+    border-radius: 40px;
+    border-color: #B8B8B8;
+    width: 70%;
     position: relative;
-    left: 10%;
+    left: 15%;
+    height: 100em;
+}
 
+.uploadBg {
+    height: 24em;
+    width: 99.4%;
+    margin-top: 0.3%;
+    margin-right: 0.3%;
+    margin-left: 0.3%;
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: #B8B8B8;
+    background: #E7E7E7;
+}
+
+.uploadPp {
+    position: absolute;
+    right: 67%;
+    top: 11.6%;
+    height: 20em;
+    width: 30%;
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: #B8B8B8;
+    background: #E7E7E7;
+    z-index: 1;
+}
+
+.nameInput {
+    position: relative; 
+    left: 14%;
+    margin-top: 3.5%;
+    height: 2em;
+    width: 15em;
+    border-radius: 16px;
+    border: solid 1px;
+    border-color: #B8B8B8;
+    font-size: 28px;
+}
+
+.ageInput {
+    position: relative; 
+    left: 18%;
+    margin-top: 3.5%;
+    height: 2em;
+    width: 4em;
+    border-radius: 16px;
+    border: solid 1px;
+    border-color: #B8B8B8;
+    font-size: 28px;
+}
+
+
+.budgetFromLabel {
+    position: relative; 
+    left: 10%;
+    margin-top: 3.5%;
+    height: 2em;
+    width: 4em;
+    font-size: 28px;
+}
+
+.budgetFromInput {
+    position: relative; 
+    left: 8%;
+    margin-top: 3.5%;
+    height: 2em;
+    width: 4em;
+    border-radius: 16px;
+    border: solid 1px;
+    border-color: #B8B8B8;
+    font-size: 28px;
+}
+
+.budgetToLabel {
+    position: relative; 
+    left: 24%;
+    margin-top: 3.5%;
+    height: 2em;
+    width: 4em;
+    font-size: 28px;
+}
+
+.budgetToInput {
+    position: relative; 
+    left:14%;
+    margin-top: 3.5%;
+    height: 2em;
+    width: 4em;
+    border-radius: 16px;
+    border: solid 1px;
+    border-color: #B8B8B8;
+    font-size: 28px;
+}
+
+.aboutLabel {
+    position: relative; 
+    font-size: 28px;
+    left: -39%;
+    margin-top: 2%;
+    width: 4em;
+}
+
+.aboutInput {
+    position: relative; 
+    font-size: 28px;
+    left: -0.5%;
+    margin-top: 2.5%;
+    width: 91%;
+    height: 20em;
+    border-radius: 16px;
+    border: solid 1px;
+    border-color: #B8B8B8;
 }
