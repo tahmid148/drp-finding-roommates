@@ -3,6 +3,7 @@ import userService from '../../services/user';
 import './RoommateSearchPage.css';
 
 const RoommateSearchPage = ({state}) => {
+    // eslint-disable-next-line
     const [colorMode, switchMode] = state
     const [users, setUsers] = useState([])
     const [allUsers, setAllUsers] = useState([])
