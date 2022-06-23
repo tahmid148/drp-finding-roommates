@@ -5,7 +5,19 @@ import face1 from './face1.png'
 const ExampleProfile1 = () => {
     return (
         <div className='boxStyle' >
-            <img src={face1} alt='facedud'></img>   
+            <img src={face1} alt='facedud'></img>
+            <p>
+            James
+            </p>
+            <p>
+            Age: 24
+            </p>
+            <p>
+            Gender: Male
+            </p>
+            <p>
+            Tidy
+            </p>
             <p>
             Student: UCL
             </p>
@@ -13,27 +25,20 @@ const ExampleProfile1 = () => {
             Budget: £200 - £250
             </p>
             <p>
-            Gender: Male
+            Sleep Schedule: 10pm - 8am
             </p>
             <p>
-            Sleep Schedule: 8am - 12am
+            Do not smoke
             </p>
             <p>
-            Sexuality: Hetrosexual
+            Has pets
             </p>
             <p>
-            Ethnicity: Pacific
+            I like to explore nature, usually through walking and hiking.
+            I take health seriously and if you do not then I am not interested in you by any means.
+            I sleep 10 hours a day and you must allow me to achieve this personal goal of mine.
+            I really like to sleep.
             </p>
-            <p>
-            Looking for a roommate in East London. I like to keep very
-            tidy and prefer to sleep early in peace and quiet. Most of my
-            friends are from my university and my local area but I would be
-            interested in meeting some new people and like to explore outside
-            of my university when I have time. When I have time I also like to 
-            cook and most of my cooking is normal people cuisine.
-            Request me if you are fun, tidy
-            and not racist.
-            </p>  
         </div>
     )
 }

@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
-
 .navbar {
   background-color: #2a9d8f;
-  padding: 0.5em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .homeButton {
   font-weight: bold;
   font-size: 2.5vw;
-  margin: 0.5em 0 0.5em 2em;
 }
 
 .login {
@@ -19,12 +12,10 @@
   margin-right: 2em;
 }
 
-.right-elems {
-  display: flex;
-}
-
 .switch-mode {
+  background-color: #2a9d8f;
   border-radius: 100vmax;
-  margin: 4vh 0;
+  border-color: #2a9d8f;
+  margin: 2vh 0;
   margin-right: 3vw;
 }
