@@ -25,11 +25,11 @@ const App = () => {
           "minHeight": "300vh"
         }}>
           <nav className='navbar'>
-            <p className='homeButton'>Roomb</p>
-            <div className='right-elems'>
+            <span className='homeButton'>Roomb</span>
+            <span className='right-elems'>
               <button onClick={() => switchMode(!colorMode)} className='switch-mode'>switch light mode</button>
-              <p className='login'>Login</p>
-            </div>
+              <span className='login'>Login</span>
+            </span>
           </nav>
           <Tagline colorMode={colorMode} />
           <InformationBoxes colorMode={colorMode}/>
