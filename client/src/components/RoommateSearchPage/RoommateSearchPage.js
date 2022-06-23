@@ -27,15 +27,15 @@ const RoommateSearchPage = ({state}) => {
 
         if(idArr.includes('male') && idArr.includes('female')) {
         } else if (idArr.includes('introvert') && idArr.includes('extravert')) {
-        } else if (idArr.includes('day-person') && idArr.includes('night-person')) {
+        } else if (idArr.includes('tidy') && idArr.includes('no-instruments')) {
         } else if (idArr.includes('male')) {
             setUsers(users.filter(user => user.gender === 'male'))
         } else if (idArr.includes('female')) {
             setUsers(users.filter(user => user.gender === 'female'))
-        } else if (idArr.includes('night-person')) {
-            setUsers(users.filter(user => user.lifestyle === 'night-person'))
-        } else if (idArr.includes('day-person')) {
-            setUsers(users.filter(user => user.lifestyle === 'day-person'))
+        } else if (idArr.includes('no-instruments')) {
+            setUsers(users.filter(user => user.lifestyle === 'no-instruments'))
+        } else if (idArr.includes('tidy')) {
+            setUsers(users.filter(user => user.lifestyle === 'tidy'))
         } else if (idArr.includes('introvert')) {
             setUsers(users.filter(user => user.personality === 'introvert'))
         } else if (idArr.includes('extravert')) {
@@ -85,6 +85,8 @@ const RoommateSearchPage = ({state}) => {
             <div className='container' style={backgroundStyle}>
                 <div className='filterbox'>
                     <h3>Filter</h3>
+                    <h3>Looking for</h3>
+                    <h3>...</h3>
                     <form onSubmit={filterPreference}>
                         <label>Male</label>
                         <input type="checkbox" id="male" name='form-elem' value='male'/><br></br><br></br>
@@ -94,13 +96,13 @@ const RoommateSearchPage = ({state}) => {
                         <input type="checkbox" id="introvert" name='form-elem' value='introvert'/><br></br><br></br>
                         <label>Extravert</label>
                         <input type="checkbox" id="extravert" name='form-elem' value='extravert'/><br></br><br></br>
-                        <label>Day Person</label>
-                        <input type="checkbox" id="day-person" name='form-elem' value='day-person'/><br></br><br></br>
-                        <label>Night Person</label>
-                        <input type="checkbox" id="night-person" name='form-elem' value='night-person'/><br></br><br></br>
+                        <label>Tidy</label>
+                        <input type="checkbox" id="tidy" name='form-elem' value='tidy'/><br></br><br></br>
+                        <label>No Instruments</label>
+                        <input type="checkbox" id="no-instruments" name='form-elem' value='no-instruments'/><br></br><br></br>
                         <label>Smokes</label>
                         <input type="checkbox" id="smokes" name='form-elem' value='smokes'/><br></br><br></br>
-                        <label>Pets</label>
+                        <label>With Pets</label>
                         <input type="checkbox" id="pets" name='form-elem' value='pets'/><br></br><br></br>
                         <input type="submit" />
                     </form>
