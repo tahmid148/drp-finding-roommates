@@ -51,3 +51,40 @@
   margin-left: 30vw;
   margin-bottom: 1vh;
 }
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 3vh;
+}
+
+.search-container input {
+  height: 4vh;
+  margin-top: 1vh ;
+  border-radius: 10px;
+}
+
+input.submit-btn {
+  margin-top: 1.4vh;
+}
+.search-container p {
+  margin-right: 1vh;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-container h2 {
+  margin-left: 2.5vw;
+}
+
+.reset-btn {
+  height: 5vh;
+  width: 10vw;
+  margin-top: 4vh;
+  border-radius: 100vmax;
+
+}

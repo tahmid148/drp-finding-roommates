@@ -58,9 +58,29 @@ const RoommateSearchPage = ({state}) => {
         filterWithIds(idArr)
         
     }
+
+    const searchFilter = (event) => {
+        event.preventDefault()
+        const text = document.getElementById('search-text').value
+        setUsers(allUsers)
+        setUsers(users.filter(user => user.info.includes(text)))
+    }
+
+    const resetUsers = () => {
+        setUsers(allUsers)
+    }
+
     return (
         <div style={backgroundStyle}>
-            <h2>Roommate Search Page</h2>
+            <div className='top-container'>
+                <h2>Potential Roomates</h2>
+                <form className='search-container' onSubmit={searchFilter}>
+                    <p>Search By Keyword</p>
+                    <input type='text' id='search-text'/>
+                    <input type='submit' className='submit-btn'/>
+                </form>
+                <button className='reset-btn' onClick={resetUsers}>Reset</button>
+            </div>
             <div className='container' style={backgroundStyle}>
                 <div className='filterbox'>
                     <h3>Filter</h3>
