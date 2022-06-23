@@ -13,15 +13,12 @@ const YourProfile = ({state}) => {
         "textColor": textColor,
         "transition": "background 0.8s"
     }
-    const answerStyle = {
-        "backgroundColor": answerColor,
-    }
-    const borderStyle = {
-        "border": '5px solid' + borderColor
-    }
-    const textStyle = {
-        "color": textColor
-    }
+    // eslint-disable-next-line
+    const answerStyle = {"backgroundColor": answerColor}
+    // eslint-disable-next-line
+    const borderStyle = {"border": '5px solid' + borderColor}
+    // eslint-disable-next-line
+    const textStyle = {"color": textColor}
     return (
         <div style={backgroundStyle} height="100%">
             <nav className='navbar'>
