@@ -2,10 +2,18 @@ import React, { useEffect, useState } from 'react';
 import userService from '../../services/user';
 import './RoommateSearchPage.css';
 
-const RoommateSearchPage = () => {
+const RoommateSearchPage = ({state}) => {
+    const [colorMode, switchMode] = state
     const [users, setUsers] = useState([])
     const [allUsers, setAllUsers] = useState([])
-    
+    const backgroundColor = colorMode ? '#fff' : '#264653'
+    const textColor = colorMode ? '#000' : '#fff'
+    const backgroundStyle = {
+        "backgroundColor": backgroundColor,
+        "textColor": textColor,
+        "transition": "background 0.8s",
+        "marginTop": "0"
+    }
     useEffect(() => {
         userService.getAll().then(initialUsers => {
             setUsers(initialUsers)
@@ -51,9 +59,9 @@ const RoommateSearchPage = () => {
         
     }
     return (
-        <div>
+        <div style={backgroundStyle}>
             <h2>Roommate Search Page</h2>
-            <div className='container'>
+            <div className='container' style={backgroundStyle}>
                 <div className='filterbox'>
                     <h3>Filter</h3>
                     <form onSubmit={filterPreference}>

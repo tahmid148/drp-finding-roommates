@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import RoommateSearchPage from '../RoommateSearchPage/RoommateSearchPage';
 import ExampleProfile1 from '../ExampleProfile1/ExampleProfile1';
-import {NavigationBar as NavBar} from '../RoommateSearchPage/NavigationBar/NavigationBar';
+import NavigationBar from '../RoommateSearchPage/NavigationBar/NavigationBar';
 
 const App = () => {
   const [colorMode, switchMode] = useState(true)
@@ -40,8 +40,8 @@ const App = () => {
         <Route path='/example-profile1' element={<ExampleProfile1 />} />
         <Route path='/roommate-search' element={
         <div>
-          <NavBar />
-          <RoommateSearchPage />
+          <NavigationBar state={[colorMode, switchMode]}/>
+          <RoommateSearchPage state={[colorMode, switchMode]}/>
         </div>
        } />
         

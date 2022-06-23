@@ -1,15 +1,6 @@
-.big-container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .container {
-  background-color: #264653;
   width: 90vw;
-  height: 80vh;
+  height: 78.5vh;
   margin-left: 4em;
   display: flex;
   flex-direction: row;

@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+h2 {
+  margin-top: 0;
+  padding-top: 5vh;
+}
 
 body {
   text-align: center;
@@ -27,6 +31,6 @@ body {
 }
 
 .profilePic {
-  width: 5%;
+  width: 5vw;
   height: auto;
 }
