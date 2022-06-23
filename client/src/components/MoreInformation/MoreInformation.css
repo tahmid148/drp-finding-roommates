@@ -1,20 +1,3 @@
-.text {
-  color: white;
-  font-size: 2vw;
-}
-
-.more-text {
-  font-size: 4vw;
-  text-align: left;
-  margin-left: 1em;
-}
-.more-text0 {
-  font-size: 3vw;
-  text-align: left;
-  margin-left: 1.5em;
-  color: white;
-}
-
 .more-box-container {
   display: flex;
   flex-direction: row;
