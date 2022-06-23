@@ -20,27 +20,11 @@
   width: 1400px;
   height: 1100px;
   padding: 5px;
-  border: 5px solid #e9c46a;  
   border-radius: 5px;
   text-align: left;
 }
 
-.question-text {
-    font-size: 2.5vw;
-    color: white;
-    margin-left: 1em;
-}
-
-.answer-text {
-    margin-left: 2em;
-}
-
-.budget {
-    margin-left: 5em;
-}
-
 .full-name {
-    color: white;
     position: absolute;
     top: 4.5em;
     left: 2em;
@@ -53,12 +37,10 @@
     width: 20em;
     top: 0.8em;
     left: 17em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .age {
-    color: white;
     position: absolute;
     top: 4.5em;
     left: 15em;
@@ -71,12 +53,10 @@
     width: 3em;
     top: 0.8em;
     left: 8em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .gender {
-    color: white;
     position: absolute;
     top: 4.5em;
     left: 20em;
@@ -89,12 +69,10 @@
     width: 10em;
     top: 0.8em;
     left: 13em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .personality {
-    color: white;
     position: absolute;
     top: 6.2em;
     left: 2em;
@@ -107,12 +85,10 @@
     width: 10em;
     top: 0.8em;
     left: 19em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .smokes {
-    color: white;
     position: absolute;
     top: 8em;
     left: 2em;
@@ -125,12 +101,10 @@
     width: 10em;
     top: 0.8em;
     left: 26em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .hygiene {
-    color: white;
     position: absolute;
     top: 8em;
     left: 14em;
@@ -143,12 +117,10 @@
     width: 10em;
     top: 0.8em;
     left: 29.4em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .pets {
-    color: white;
     position: absolute;
     top: 9.8em;
     left: 2em;
@@ -161,12 +133,10 @@
     width: 10em;
     top: 0.8em;
     left: 31em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .over {
-    color: white;
     position: absolute;
     top: 11.5em;
     left: 2em;
@@ -179,12 +149,10 @@
     width: 10em;
     top: 0.8em;
     left: 54em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .instruments {
-    color: white;
     position: absolute;
     top: 13.3em;
     left: 2em;
@@ -197,12 +165,10 @@
     width: 10em;
     top: 0.7em;
     left: 74em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .sleeptime {
-    color: white;
     position: absolute;
     top: 15.1em;
     left: 2em;
@@ -214,12 +180,10 @@
     height: 2em;
     width: 10em;
     top: 0.7em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .wakeuptime {
-    color: white;
     position: absolute;
     top: 15.1em;
     left: 15em;
@@ -231,12 +195,10 @@
     height: 2em;
     width: 10em;
     top: 0.7em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .about-you {
-    color: white;
     position: absolute;
     top: 15.6em;
     left: 2em;
@@ -249,13 +211,11 @@
     width: 60em;
     top: 7em;
     left: 0em;
-    background-color: #f8b3e1;
     border-radius: 5px;
     font-size: 20px;
 }
 
 .budget1 {
-    color: white;
     position: absolute;
     top: 5em;
     left: 12em;
@@ -268,12 +228,10 @@
     width: 3em;
     top: 4.75em;
     left: 39.75em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
 .budget2 {
-    color: white;
     position: absolute;
     top: 5em;
     left: 25.3em;
@@ -286,7 +244,6 @@
     width: 3em;
     top: 4.75em;
     left: 4em;
-    background-color: #f8b3e1;
     border-radius: 5px;
 }
 
@@ -300,7 +257,7 @@
   font-family: 'Raleway';
   position: absolute;
   top: 43em;
-  left: 4em;
+  left: 3em;
 }
 
 .next-btn:hover {

@@ -4,7 +4,7 @@ import Tagline from '../Tagline/Tagline';
 import InformationBoxes from '../InformationBoxes/InformationBoxes';
 import MoreInformation from '../MoreInformation/MoreInformation';
 import Footer from '../Footer/Footer';
-import { YourProfile } from '../YourProfile/YourProfile';
+import YourProfile from '../YourProfile/YourProfile';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import RoommateSearchPage from '../RoommateSearchPage/RoommateSearchPage';
@@ -34,7 +34,7 @@ const App = () => {
           <MoreInformation colorMode={colorMode}/>
           <Footer background={backgroundColor}/>
         </div>}  />
-        <Route path='/profile' element={<YourProfile />} />
+        <Route path='/profile' element={<YourProfile state={[colorMode, switchMode]}/>} />
         <Route path='/example-profile1' element={<ExampleProfile1 />} />
         <Route path='/roommate-search' element={
         <div>
