@@ -26,8 +26,10 @@ const App = () => {
         }}>
           <nav className='navbar'>
             <p className='homeButton'>Roomb</p>
-            <p className='login'>Login</p>
-            <button onClick={() => switchMode(!colorMode)} className='switch-mode'>switch light mode</button>
+            <div className='right-elems'>
+              <button onClick={() => switchMode(!colorMode)} className='switch-mode'>switch light mode</button>
+              <p className='login'>Login</p>
+            </div>
           </nav>
           <Tagline colorMode={colorMode} />
           <InformationBoxes colorMode={colorMode}/>
