@@ -6,12 +6,12 @@ import huixin from './huixin.png'
 import paulo from './paulo.png'
 import estibon from './estibon.png'
 
-const Tagline = (colorMode) => {
-    const textColor = colorMode.colorMode ? '#000' : '#e76f51'
-    const youColor = colorMode.colorMode ? '#2A9D8F' : '#E9C46A'
-    const btnColor = colorMode.colorMode ? '#2A9D8F' : '#264653'
-    const btnTextColor = colorMode.colorMode ? '#fff' : '#E9C46A'
-    const btnBorderColor = colorMode.colorMode ? '#fff' : '#e76f51'
+const Tagline = ({colorMode}) => {
+    const textColor = colorMode ? '#000' : '#e76f51'
+    const youColor = colorMode ? '#2A9D8F' : '#E9C46A'
+    const btnColor = colorMode ? '#2A9D8F' : '#264653'
+    const btnTextColor = colorMode ? '#fff' : '#E9C46A'
+    const btnBorderColor = colorMode ? '#fff' : '#e76f51'
 
     const youStyle = {
         "color": youColor

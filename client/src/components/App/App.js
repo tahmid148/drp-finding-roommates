@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Tagline from '../Tagline/Tagline';
 import InformationBoxes from '../InformationBoxes/InformationBoxes';
-import { MoreInformation } from '../MoreInformation/MoreInformation';
+import MoreInformation from '../MoreInformation/MoreInformation';
 import { Footer } from '../Footer/Footer';
 import { YourProfile } from '../YourProfile/YourProfile';
 import { BrowserRouter as Router, Routes, Route}
@@ -31,7 +31,7 @@ const App = () => {
           </nav>
           <Tagline colorMode={colorMode} />
           <InformationBoxes colorMode={colorMode}/>
-          <MoreInformation />
+          <MoreInformation colorMode={colorMode}/>
           <Footer />
         </div>}  />
         <Route path='/profile' element={<YourProfile />} />

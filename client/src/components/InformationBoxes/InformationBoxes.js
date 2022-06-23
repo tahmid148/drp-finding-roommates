@@ -7,8 +7,8 @@ import lightInfo1 from './light-info-card-1.svg'
 import lightInfo2 from './light-info-card-2.svg'
 import lightInfo3 from './light-info-card-3.svg'
 
-const InformationBoxes = (colorMode) => {
-    if (colorMode.colorMode) {
+const InformationBoxes = ({colorMode}) => {
+    if (colorMode) {
         return (
             <div id='info' className='box-container'>
                 <img className='images image1' src={lightInfo1} alt='People'></img>

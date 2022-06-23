@@ -1,54 +1,13 @@
-.text {
-  color: white;
-  font-size: 2vw;
-}
 
-.more-text {
-  font-size: 4vw;
-  text-align: left;
-  margin-left: 1em;
-}
-.more-text0 {
-  font-size: 3vw;
-  text-align: left;
-  margin-left: 1.5em;
-  color: white;
-}
+
+
 
 .more-box-container {
   display: flex;
   flex-direction: row;
   margin: 0 5em;
-  text-align: left;
 }
 
-.more-box1 {
-  border: 2px solid #e9c46a;
-  border-radius: 10px;
-  width: 25vw;
-  margin-right: 1em;
-  padding: 0 1em;
-}
-.more-box2{
-  border: 2px solid #e9c46a;
-  border-radius: 10px;
-  width: 25vw;
-  margin-right: 1em;
-  padding: 0 1em;
-}
-.more-box3{
-  border: 2px solid #e9c46a;
-  border-radius: 10px;
-  width: 25vw;
-  padding: 0 1em;
-}
-.final-box {
-  border: 2px solid #e9c46a;
-  border-radius: 10px;
-  width: 50vw;
-  margin-left: 25%;
-  margin-top: 1em;
-}
 
 .to-red {
   color: #e76f51;
@@ -56,8 +15,4 @@
 
 .to-orange {
   color: #e9c46a;
-}
-
-.to-green {
-  color: #2a9d8f;
 }
