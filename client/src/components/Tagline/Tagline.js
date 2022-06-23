@@ -20,7 +20,7 @@ const Tagline = ({colorMode}) => {
     const taglineStyle = {
         "position": "relative",
         "textAlign": 'left',
-        "margin": "1em 0 0 12vw",
+        "margin": "1em 0 0 6vw",
         "fontSize":"6vw",
         "fontWeight" :"400",
         "animation": "fadeInUp 1s",
@@ -34,7 +34,7 @@ const Tagline = ({colorMode}) => {
         "color": btnTextColor,
         "fontSize" : "1.5vw",
         "padding": "1.5em 5em",
-        "marginRight": "4em",
+        "marginLeft": "2vw",
         "animation": "fadeInUp 1s"
     }
     
@@ -54,10 +54,14 @@ const Tagline = ({colorMode}) => {
                 
             </div>
             <div className='profile-container'>
-                    <a href="example-profile1"><img className='profiles' src={james} alt='peoples profiles'></img></a>
-                    <img className='profiles' src={huixin} alt='peoples profiles'></img>
-                    <img className='profiles' src={paulo} alt='peoples profiles'></img>
-                    <img className='profiles' src={estibon} alt='peoples profiles'></img>
+                    <div className='section1'>
+                        <a href="example-profile1"><img className='profiles' src={james} alt='peoples profiles'></img></a>
+                        <img className='profiles' src={huixin} alt='peoples profiles'></img>
+                    </div>
+                    <div className='section2'>
+                        <img className='profiles' src={paulo} alt='peoples profiles'></img>
+                        <img className='profiles' src={estibon} alt='peoples profiles'></img>
+                    </div>
                 </div>
             </div>
     )
