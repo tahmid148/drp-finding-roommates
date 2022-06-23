@@ -3,7 +3,7 @@ import './App.css';
 import Tagline from '../Tagline/Tagline';
 import InformationBoxes from '../InformationBoxes/InformationBoxes';
 import MoreInformation from '../MoreInformation/MoreInformation';
-import { Footer } from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 import { YourProfile } from '../YourProfile/YourProfile';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -32,7 +32,7 @@ const App = () => {
           <Tagline colorMode={colorMode} />
           <InformationBoxes colorMode={colorMode}/>
           <MoreInformation colorMode={colorMode}/>
-          <Footer />
+          <Footer background={backgroundColor}/>
         </div>}  />
         <Route path='/profile' element={<YourProfile />} />
         <Route path='/example-profile1' element={<ExampleProfile1 />} />

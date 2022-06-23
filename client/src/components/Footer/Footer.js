@@ -1,17 +1,16 @@
 import React from 'react';
 import './Footer.css'
 
-export class Footer extends React.Component {
-    render() {
-        return (
+const Footer = ({background}) => {
+    return (
+        <div style={{
+            "backgroundColor": background
+        }}>
             <nav className='footer'>
-                <p data-testid="header2" className='footer-header'>
-                    <div className='footer-container'>
-                        <div className='homeButton'>Roomb</div>
-                    </div>
-                    
-                </p>
+                <div className='homeButton'>Roomb</div>
             </nav>
-        );
-    }
+        </div>
+    )
 }
+
+export default Footer

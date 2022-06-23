@@ -2,23 +2,17 @@
 
 .footer {
     background-color: #e9c46a;
-    padding: 1em;
-    position: relative;
-    top: 620px;
-  }
-
-.footer-header {
-  text-align: left;
-  margin: 0 0 0 1.5em;
-  font-size: 3em;
-  font-weight: 500;
+    padding: 0.5vh 0;
+    position:relative;
+    bottom: 0%;
+    width: 100%;
+    margin-top: 20vh;
 }
 
-body {
-    text-align: center;
-    font-family: 'Raleway';
-    background-color: #264653;
-  }  
+
+
+
+
 
 
 
