@@ -91,10 +91,22 @@ const YourProfile = ({state}) => {
                         <option value='tidy'>Tidy</option>
                         <option value='messy'>Messy</option>
                     </select>
+                    <label className='label religionLabel'>Religion</label>
+                    <select className='dropdown religionDropdown' name='religion' required>
+                        <option value='muslim'>Muslim</option>
+                        <option value='christian'>Christian</option>
+                        <option value='jewish'>Jewish</option>
+                        <option value='hindu'>Hindu</option>
+                        <option value='buddhist'>Buddhist</option>
+                        <option value='Sikh'>Sikh</option>
+                        <option value='atheist'>Atheist</option>
+                        <option value='agnostic'>Agnostic</option>
+                        <option value='other'>Other</option>
+                    </select>
                     <br/>
                     <label className="aboutLabel">About You</label>
                     <br/>
-                    <textarea type="text" className="aboutInput" name='info'></textarea>
+                    <textarea type="text" className="aboutInput" name='info' required></textarea>
                     <br />
                     <input type="submit" />
                 </form>

@@ -153,22 +153,32 @@
 
 .petsLabel {
     position: relative;
-    left: -14%;
+    left: -5%;
 }
 
 .petsDropdown {
     position: relative;
-    left: -13%
+    left: -4%
 }
 
 .hygieneLabel {
     position: relative;
-    left: -10%;
+    left: -2%;
 }
 
 .hygieneDropdown {
     position: relative;
-    left: -9%;
+    left: -1%;
+}
+
+.religionLabel {
+    position: relative;
+    left: 1%;
+}
+
+.religionDropdown {
+    position: relative;
+    left: 2%;
 }
 
 .aboutLabel {
