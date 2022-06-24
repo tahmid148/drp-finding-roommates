@@ -60,17 +60,43 @@ const YourProfile = ({state}) => {
                             uploadPpInput.click()
                         });
                     </script> */}
-                    <input type="text" placeholder="Full Name" className="nameInput"></input>
-                    <input type="text" placeholder="Age" className="ageInput"></input>
+                    <input type="text" placeholder="Full Name" className="nameInput" name='name' required></input>
+                    <input type="text" placeholder="Age" className="input ageInput" name='age' required></input>
                     <br></br>
-                    <label className="budgetFromLabel">Budget From £</label>
-                    <label className="budgetToLabel">To</label>
-                    <input type="text" className="budgetFromInput"></input>
-                    <input type="text" className="budgetToInput"></input>
-                    <br></br>
+                    <label className="label budgetFromLabel">Budget From £</label>
+                    <label className="label budgetToLabel">To</label>
+                    <input type="text" className="input budgetFromInput" name='min_budget' required></input>
+                    <input type="text" className="input budgetToInput" name='max_budget' required></input>
+                    <br/>
+                    <label className='label genderLabel'>Gender</label>
+                    <input type="text" className='input genderInput' name='gender' required/>
+                    <label className='label personalityLabel'>Personality</label>
+                    <select className='dropdown personalityDropdown' name='personality' required>
+                        <option value='introvert'>Introvert</option>
+                        <option value='extravert'>Extravert</option>
+                    </select>
+                    <label className='label smokesLabel'>Do you smoke?</label>
+                    <select className='dropdown smokesDropdown' name='smokes' required>
+                        <option value='yes'>Yes</option>
+                        <option value='no'>No</option>
+                    </select>
+                    <br/>
+                    <label className='label petsLabel'>Do you have pets?</label>
+                    <select className='dropdown petsDropdown' name='has_pets' required>
+                        <option value='yes'>Yes</option>
+                        <option value='no'>No</option>
+                    </select>
+                    <label className='label hygieneLabel'>Hygiene</label>
+                    <select className='dropdown hygieneDropdown' name='hygiene' required>
+                        <option value='tidy'>Tidy</option>
+                        <option value='messy'>Messy</option>
+                    </select>
+                    <br/>
                     <label className="aboutLabel">About You</label>
-                    <br></br>
-                    <textarea type="text" className="aboutInput"></textarea>
+                    <br/>
+                    <textarea type="text" className="aboutInput" name='info'></textarea>
+                    <br />
+                    <input type="submit" />
                 </form>
             </div> 
         </div>

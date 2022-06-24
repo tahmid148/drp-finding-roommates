@@ -23,6 +23,8 @@
   margin-top: 1em;
   margin-left: 2em;
   overflow-y: scroll;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
 .userbox::-webkit-scrollbar {
@@ -46,6 +48,7 @@
   height: 25vh;
   width: 72vw;
   border-radius: 10px;
+  text-overflow: ellipsis;
 }
 
 .view-more-btn {

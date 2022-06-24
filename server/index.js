@@ -43,6 +43,10 @@ app.get("/api/users", (req, res) => {
 });
 
 app.post("/profile", async (req, res) => {
+  console.log('we here');
+  console.log(req.body.name);
+  console.log(req.body.age);
+  console.log(req.body.info);
   const user = new User({ 
     name: req.body.name, 
     age: req.body.age, 
