@@ -7,7 +7,7 @@ const cors = require('cors')
 const app = express();
 app.use(cors())
 
-app.use(express.static(path.resolve(__dirname, '../client/src')));
+app.use(express.static(path.resolve(__dirname, '../client/build')));
 app.use(express.urlencoded({ extended: false }))
 
 url = process.env.URI

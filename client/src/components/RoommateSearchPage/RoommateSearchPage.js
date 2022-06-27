@@ -6,8 +6,7 @@ import './RoommateSearchPage.css';
 import { Chatroom } from '../Chatroom/Chatroom';
 
 const RoommateSearchPage = ({state}) => {
-    // eslint-disable-next-line
-    const [colorMode, switchMode] = state
+    const [colorMode, ] = state
     const [users, setUsers] = useState([])
     const [allUsers, setAllUsers] = useState([])
     const backgroundColor = colorMode ? '#fff' : '#264653'
@@ -24,6 +23,10 @@ const RoommateSearchPage = ({state}) => {
             setAllUsers(initialUsers)
         })
     }, [])
+
+    const resetUsers = () => {
+        setUsers(allUsers)
+    }
 
     const filterWithIds = (idArr) => {
         setUsers(allUsers)
@@ -65,14 +68,12 @@ const RoommateSearchPage = ({state}) => {
 
     const searchFilter = (event) => {
         event.preventDefault()
-        const text = document.getElementById('search-text').value
+        const text = document.getElementById('search-text').value;
         setUsers(allUsers)
         setUsers(users.filter(user => user.info.includes(text)))
     }
 
-    const resetUsers = () => {
-        setUsers(allUsers)
-    }
+   
 
     return (
         <div style={backgroundStyle}>
