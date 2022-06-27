@@ -6,19 +6,11 @@ const YourProfile = ({state}) => {
     const [colorMode, switchMode] = state
     const backgroundColor = colorMode ? '#fff' : '#264653'
     const textColor = colorMode ? '#000' : '#fff'
-    const borderColor = colorMode ? '#2a9d8f' : '#e9c46a'
-    const answerColor = colorMode ? '#fff' : '#f8b3e1'
     const backgroundStyle = {
         "backgroundColor": backgroundColor,
         "textColor": textColor,
         "transition": "background 0.8s"
     }
-    // eslint-disable-next-line
-    const answerStyle = {"backgroundColor": answerColor}
-    // eslint-disable-next-line
-    const borderStyle = {"border": '5px solid' + borderColor}
-    // eslint-disable-next-line
-    const textStyle = {"color": textColor}
     return (
         <div style={backgroundStyle} height="100%">
             <nav className='navbar'>
