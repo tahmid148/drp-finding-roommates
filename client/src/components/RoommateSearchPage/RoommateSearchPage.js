@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import userService from '../../services/user';
 import './RoommateSearchPage.css';
-import profilePhoto from './placeholder-image.jpg';
-import backgroundPhoto from './placeholder-background.jpg';
+// import profilePhoto from './placeholder-image.jpg';
+// import backgroundPhoto from './placeholder-background.jpg';
 
 const RoommateSearchPage = ({state}) => {
     // eslint-disable-next-line
@@ -114,8 +114,8 @@ const RoommateSearchPage = ({state}) => {
                         return (
                             <div className='user-card' key={user.id}>
                                 <ul className='list-one'>
-                                    <img className='background-picture' src={backgroundPhoto} alt='placeholder-background-profilePhoto'/>
-                                    <img className='profile-picture' src={profilePhoto} alt='placeholder-profile-profilePhoto'/>
+                                    {/* <img className='background-picture' src={backgroundPhoto} alt='placeholder-background-profilePhoto'/> */}
+                                    {/* <img className='profile-picture' src={profilePhoto} alt='placeholder-profile-profilePhoto'/> */}
                                     <p className='name'><strong>Name:</strong> {user.name}</p> 
                                     <p className='age'><strong>Age:</strong> {user.age}</p> 
                                     <p className='info'><strong>Info:</strong> {user.info}</p> 
