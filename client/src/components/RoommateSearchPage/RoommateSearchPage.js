@@ -3,6 +3,7 @@ import userService from '../../services/user';
 import './RoommateSearchPage.css';
 // import profilePhoto from './placeholder-image.jpg';
 // import backgroundPhoto from './placeholder-background.jpg';
+import { Chatroom } from '../Chatroom/Chatroom';
 
 const RoommateSearchPage = ({state}) => {
     // eslint-disable-next-line
@@ -120,7 +121,7 @@ const RoommateSearchPage = ({state}) => {
                                     <p className='age'><strong>Age:</strong> {user.age}</p> 
                                     <p className='info'><strong>Info:</strong> {user.info}</p> 
                                 </ul>
-                                <button className='message-btn'>Message</button>
+                                <Chatroom />
                             </div>)
                     })}
                 </div>
@@ -129,4 +130,5 @@ const RoommateSearchPage = ({state}) => {
     )
 }
 
-export default RoommateSearchPage // Testing
+
+export default RoommateSearchPage
