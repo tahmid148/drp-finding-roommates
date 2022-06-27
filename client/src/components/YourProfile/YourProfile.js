@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './YourProfile.css';
 
 const YourProfile = ({state}) => {
@@ -7,7 +7,7 @@ const YourProfile = ({state}) => {
     const backgroundColor = colorMode ? '#fff' : '#264653'
     const textColor = colorMode ? '#000' : '#fff'
     const borderColor = colorMode ? '#2a9d8f' : '#e9c46a'
-    const answerColor = colorMode ? '#fff' : '#f8b3e1'
+    const answerColor = colorMode ? '#fff' : '#fff'
     const backgroundStyle = {
         "backgroundColor": backgroundColor,
         "textColor": textColor,
@@ -113,11 +113,14 @@ const YourProfile = ({state}) => {
                         placeholder='I am a second year student at Imperial College with a focus in engineering. I hate late night parties......'>
                         </textarea>
                     </span>
-                    {/* <Link to='/roommate-search'> */}
-                        <button type="submit" className='next-btn'>
-                            Next 
+                    <button type="submit" className='next-btn'>
+                        Next 
+                    </button>
+                    <Link to='/roommate-search'>
+                        <button className='skip-btn'>
+                            Skip
                         </button>
-                    {/* </Link> */}
+                    </Link>
                 </section>
             </form>
         </div>
