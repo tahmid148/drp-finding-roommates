@@ -134,6 +134,7 @@ const RoommateSearchPage = ({state}) => {
                                         <p className='elem'><strong>Has Pets?</strong> {user.has_pets}</p> 
                                     </div>
                                 </div>
+                                <p className='info-elem'><strong>Info:</strong> {user.info}</p> 
                                <Chatroom />
                             </div>)
                     })}

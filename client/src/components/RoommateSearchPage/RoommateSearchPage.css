@@ -40,6 +40,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #2A9D8F;
   color: aliceblue;
   margin: 1px;
@@ -49,6 +50,7 @@
   width: 72vw;
   border-radius: 10px;
   text-overflow: ellipsis;
+  text-align: center;
 }
 
 .profile-picture {
@@ -125,6 +127,7 @@ input.submit-btn {
 .list-one {
   display: flex;
   justify-content: center;
+  margin-top: -10vh;
 }
 
 .list-two {
@@ -141,4 +144,8 @@ input.submit-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.info-elem {
+  width: 40vw;
 }
