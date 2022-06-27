@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './YourProfile.css';
 
 const YourProfile = ({state}) => {
@@ -23,7 +23,7 @@ const YourProfile = ({state}) => {
         <div style={backgroundStyle} height="100%">
             <nav className='navbar'>
             <p className='homeButton'>Roomb</p>
-                <button onClick={() => switchMode(!colorMode)}>switch light mode</button>
+                <button onClick={() => switchMode(!colorMode)} className='switch-mode'>switch light mode</button>
             </nav>
             <p className='create-profile'>
                     <span className='to-orange'>Create</span> <span className='to-yellow'>your</span> <span className='to-orange'>profile</span>
@@ -109,6 +109,11 @@ const YourProfile = ({state}) => {
                     <textarea type="text" className="aboutInput" name='info' required></textarea>
                     <br />
                     <input type="submit" />
+                    <Link to='/roommate-search'>
+                        <button>
+                            Profile Search
+                        </button>
+                    </Link>
                 </form>
             </div> 
         </div>
