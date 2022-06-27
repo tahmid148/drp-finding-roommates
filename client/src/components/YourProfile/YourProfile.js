@@ -35,22 +35,22 @@ const YourProfile = ({state}) => {
                 <section className='fill-out-form' style={borderStyle}>
                     <span className='full-name' style={textStyle}>
                         Full Name
-                        <input className='full-name-answer' type='text' placeholder='Enter Name' name="name" style={answerStyle}></input>
+                        <input className='full-name-answer' type='text' placeholder='Enter Name' name="name" style={answerStyle} required></input>
                     </span>
                     <span className='age' style={textStyle}>
                         Age
-                        <input className='age-answer' type='number' placeholder='0' name="age" style={answerStyle}></input>
+                        <input className='age-answer' type='number' placeholder='0' name="age" style={answerStyle} required></input>
                     </span>
                     <span className='gender' style={textStyle}>
                         Gender
-                        <select className='gender-answer' name='gender' style={answerStyle}>
+                        <select className='gender-answer' name='gender' style={answerStyle} required>
                             <option value='male'>Male</option>
                             <option value='female'>Female</option>
                         </select>
                     </span>
                     <span className='personality' style={textStyle}>
                         Personality
-                        <select className='personality-answer' name='personality' style={answerStyle}>
+                        <select className='personality-answer' name='personality' style={answerStyle} required>
                             <option value='introvert'>Introvert</option>
                             <option value='extravert'>Extravert</option>
                         </select>
@@ -58,30 +58,30 @@ const YourProfile = ({state}) => {
                     <span className='budget1' style={textStyle} name="">
                         <br></br>
                         Weekly Budget Range: £
-                        <input className='budget-answer1' type='number' placeholder='0' name="min_budget" style={answerStyle}></input>
+                        <input className='budget-answer1' type='number' placeholder='0' name="min_budget" style={answerStyle} required></input>
                     </span>
                     <span className='budget2' style={textStyle}>
                         <br></br>
                         to
-                        <input className='budget-answer2' type='number' placeholder='500' name="max_budget" style={answerStyle}/>
+                        <input className='budget-answer2' type='number' placeholder='500' name="max_budget" style={answerStyle} required/>
                     </span>
                     <span className='smokes' style={textStyle}>
                         Do you smoke?
-                        <select className='smokes-answer' name='smokes' style={answerStyle}>
+                        <select className='smokes-answer' name='smokes' style={answerStyle} required>
                             <option value='yes'>Yes</option>
                             <option value='no'>No</option>
                         </select>
                     </span>
                     <span className='hygiene' style={textStyle}>
                     Hygiene Situation
-                        <select className='hygiene-answer' name='hygiene' style={answerStyle}>
+                        <select className='hygiene-answer' name='hygiene' style={answerStyle} >
                             <option value='tidy'>Tidy</option>
                             <option value='messy'>Messy</option>
                         </select>
                     </span>
                     <span className='pets' style={textStyle}>
                         Do you have pets?
-                        <select className='pets-answer' name='has_pets' style={answerStyle}>
+                        <select className='pets-answer' name='has_pets' style={answerStyle} required>
                             <option value='yes'>Yes</option>
                             <option value='no'>No</option>
                         </select>
@@ -109,7 +109,7 @@ const YourProfile = ({state}) => {
                     <span className='about-you'>
                         <br></br>
                         About You
-                        <textarea className='about-you-answer' type='text'  name="info" style={answerStyle}
+                        <textarea className='about-you-answer' type='text'  name="info" style={answerStyle} required
                         placeholder='I am a second year student at Imperial College with a focus in engineering. I hate late night parties......'>
                         </textarea>
                     </span>

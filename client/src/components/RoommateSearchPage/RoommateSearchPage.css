@@ -122,7 +122,23 @@ input.submit-btn {
   text-align: left;
 }
 
-/* .info {
-  text-align: left;
-  margin: 0 0 0 10em;
-} */
+.list-one {
+  display: flex;
+  justify-content: center;
+}
+
+.list-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.elem {
+  margin-right: 5vw;
+}
+
+.list-two-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

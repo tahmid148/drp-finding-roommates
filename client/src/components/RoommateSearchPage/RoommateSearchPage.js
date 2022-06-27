@@ -115,14 +115,26 @@ const RoommateSearchPage = ({state}) => {
                     {users.map(user => {
                         return (
                             <div className='user-card' key={user.id}>
-                                <ul className='list-one'>
-                                    {/* <img className='background-picture' src={backgroundPhoto} alt='placeholder-background-profilePhoto'/> */}
-                                    {/* <img className='profile-picture' src={profilePhoto} alt='placeholder-profile-profilePhoto'/> */}
+                                <div className='list-one'>
                                     <p className='name'><strong>Name:</strong> {user.name}</p> 
-                                    <p className='age'><strong>Age:</strong> {user.age}</p> 
-                                    <p className='info'><strong>Info:</strong> {user.info}</p> 
-                                </ul>
-                                <Chatroom />
+                                </div>
+                                <div className='list-two-container'>
+                                    <div className='list-two'>
+                                        <p className='elem'><strong>Age:</strong> {user.age}</p> 
+                                        <p className='elem'><strong>Gender:</strong> {user.gender}</p> 
+                                        <p className='elem'><strong>Personality:</strong> {user.personality}</p> 
+                                    </div>
+                                    <div className='list-two'>
+                                        <p className='elem'><strong>Minimum Price:</strong> {user.min_budget}</p> 
+                                        <p className='elem'><strong>Maximum Price:</strong> {user.max_budget}</p> 
+                                    </div>
+                                    <div className='list-two'>
+                                        <p className='elem'><strong>Smokes?</strong> {user.smokes}</p> 
+                                        <p className='elem'><strong>Lifestyle:</strong> {user.lifestyle}</p> 
+                                        <p className='elem'><strong>Has Pets?</strong> {user.has_pets}</p> 
+                                    </div>
+                                </div>
+                               <Chatroom />
                             </div>)
                     })}
                 </div>
