@@ -28,7 +28,6 @@ const App = () => {
             <span className='homeButton'>Roomb</span>
             <span className='right-elems'>
               <button onClick={() => switchMode(!colorMode)} className='switch-mode'>switch light mode</button>
-              <span className='login'>Login</span>
             </span>
           </nav>
           <Tagline colorMode={colorMode} />
