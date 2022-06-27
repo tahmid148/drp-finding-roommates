@@ -28,38 +28,12 @@ const YourProfile = ({state}) => {
             <p className='create-profile'>
                     <span className='to-orange'>Create</span> <span className='to-yellow'>your</span> <span className='to-orange'>profile</span>
             </p>
-            <div className="bigBox">
+            <div className="bigBox" style={borderStyle}>
                 <form action="profile" method="POST">
-                    {/* <input type="text" placeholder="name"></input>
-                    <input type="text" placeholder="age"></input>
-                    <input type="text" placeholder="gender"></input>
-                    <input type="text" placeholder="university"></input>
-                    <input type="text" placeholder="bed time"></input>
-                    <input type="text" placeholder="introvert / extrovert"></input>
-                    <input type="text" placeholder="height"></input>
-                    <input type="text" placeholder="weight"></input>
-                    <input type="text" placeholder="net worth"></input>
-                    <input type="text" placeholder="budget range"></input>
-                    <input type="text" placeholder="race"></input>
-                    <input type="text" placeholder="religion"></input> */}
                     <input type="file" id="uploadBgInput" hidden="hidden"></input>
                     <button type="button" id="uploadBgButton" className="uploadBg">Add Image</button>
-                    {/* <script type="text/javascript">
-                        const uploadBgInput = document.getElementById("uploadBgInput");
-                        const uploadBgButton = document.getElementById("uploadBgButtton");
-                        uploadBgButton.addEventListener("click", function() {
-                            uploadBgInput.click()
-                        });
-                    </script> */}
                     <input type="file" id="uploadPpInput" hidden="hidden"></input>
                     <button type="button" id="uploadPpButton" className="uploadPp">Add Image</button>
-                    {/* <script type="text/javascript">
-                        const uploadPpInput = document.getElementById("uploadPpInput");
-                        const uploadPpButton = document.getElementById("uploadPpButtton");
-                        uploadPpButton.addEventListener("click", function() {
-                            uploadPpInput.click()
-                        });
-                    </script> */}
                     <input type="text" placeholder="Full Name" className="nameInput" name='name' required></input>
                     <input type="text" placeholder="Age" className="input ageInput" name='age' required></input>
                     <br></br>
