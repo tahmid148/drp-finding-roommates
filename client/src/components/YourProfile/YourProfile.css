@@ -254,8 +254,21 @@
     padding: 0.5em 2em;
     font-family: 'Raleway';
     position: absolute;
-    top: 43em;
+    top: 52em;
     left: 3em;
+  }
+
+  .skip-btn {
+    background-color: #264653;
+    border: 3px solid #e76f51;
+    border-radius: 10px;
+    color: #e9c46a;
+    font-size: 1.5vw;
+    padding: 0.5em 2em;
+    font-family: 'Raleway';
+    position: absolute;
+    top: 52em;
+    left: 11em;
   }
   
   .next-btn:hover {
