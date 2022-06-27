@@ -43,10 +43,6 @@ app.get("/api/users", (req, res) => {
 });
 
 app.post("/profile", async (req, res) => {
-  console.log('we here');
-  console.log(req.body.name);
-  console.log(req.body.age);
-  console.log(req.body.info);
   const user = new User({ 
     name: req.body.name, 
     age: req.body.age, 
@@ -65,7 +61,7 @@ app.post("/profile", async (req, res) => {
 
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../client/src/public', 'index.html'));
+  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
 
 const PORT = process.env.PORT || 3001;
