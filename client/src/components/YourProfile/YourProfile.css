@@ -1,202 +1,271 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
-
 .create-profile {
-  font-weight: bold;
-  font-size: 2vw;
-}
-
-.navbar{
-    background-color: #2a9d8f;
-    padding: 0.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.to-orange {
-    color: #e76f51;
-    font-size: 4.5vw;
-}
-
-.to-yellow {
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin: 0.5em 0 0.5em -0.5em;
+    width: 450px;
+    padding: 5px;
+    border: 5px solid #e76f51;  
+    border-radius: 5px;
+    background-color: #264653;
+  }
+  
+  .to-orange {
+      color: #e76f51
+  }
+  
+  .fill-out-form {
+    margin: 2.5em 0 5em 2em;
+    width: 1400px;
+    height: 1100px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .full-name {
+      position: absolute;
+      top: 4.5em;
+      left: 2em;
+      font-size: 45px;
+  }
+  
+  .full-name-answer {
+      position: absolute;
+      height: 2em;
+      width: 20em;
+      top: 0.8em;
+      left: 17em;
+      border-radius: 5px;
+  }
+  
+  .age {
+      position: absolute;
+      top: 4.5em;
+      left: 15em;
+      font-size: 45px;
+  }
+  
+  .age-answer {
+      position: absolute;
+      height: 2em;
+      width: 3em;
+      top: 0.8em;
+      left: 8em;
+      border-radius: 5px;
+  }
+  
+  .gender {
+      position: absolute;
+      top: 4.5em;
+      left: 20em;
+      font-size: 45px;    
+  }
+  
+  .gender-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.8em;
+      left: 13em;
+      border-radius: 5px;
+  }
+  
+  .personality {
+      position: absolute;
+      top: 6.2em;
+      left: 2em;
+      font-size: 45px;   
+  }
+  
+  .personality-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.8em;
+      left: 19em;
+      border-radius: 5px;
+  }
+  
+  .smokes {
+      position: absolute;
+      top: 8em;
+      left: 2em;
+      font-size: 45px;   
+  }
+  
+  .smokes-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.8em;
+      left: 26em;
+      border-radius: 5px;
+  }
+  
+  .hygiene {
+      position: absolute;
+      top: 8em;
+      left: 14em;
+      font-size: 45px;   
+  }
+  
+  .hygiene-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.8em;
+      left: 29.4em;
+      border-radius: 5px;
+  }
+  
+  .pets {
+      position: absolute;
+      top: 9.8em;
+      left: 2em;
+      font-size: 45px;   
+  }
+  
+  .pets-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.8em;
+      left: 31em;
+      border-radius: 5px;
+  }
+  
+  .over {
+      position: absolute;
+      top: 11.5em;
+      left: 2em;
+      font-size: 45px;   
+  }
+  
+  .over-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.8em;
+      left: 54em;
+      border-radius: 5px;
+  }
+  
+  .instruments {
+      position: absolute;
+      top: 13.3em;
+      left: 2em;
+      font-size: 45px;
+  }
+  
+  .instruments-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.7em;
+      left: 74em;
+      border-radius: 5px;
+  }
+  
+  .sleeptime {
+      position: absolute;
+      top: 15.1em;
+      left: 2em;
+      font-size: 45px;
+  }
+  
+  .sleeptime-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.7em;
+      border-radius: 5px;
+  }
+  
+  .wakeuptime {
+      position: absolute;
+      top: 15.1em;
+      left: 15em;
+      font-size: 45px;
+  }
+  
+  .wakeuptime-answer {
+      position: absolute;
+      height: 2em;
+      width: 10em;
+      top: 0.7em;
+      border-radius: 5px;
+  }
+  
+  .about-you {
+      position: absolute;
+      top: 15.6em;
+      left: 2em;
+      font-size: 45px;    
+  }
+  
+  .about-you-answer {
+      position: absolute;
+      height: 13em;
+      width: 60em;
+      top: 7em;
+      left: 0em;
+      border-radius: 5px;
+      font-size: 20px;
+  }
+  
+  .budget1 {
+      position: absolute;
+      top: 5em;
+      left: 12em;
+      font-size: 45px;    
+  }
+  
+  .budget-answer1 {
+      position: absolute;
+      height: 2em;
+      width: 3em;
+      top: 4.75em;
+      left: 39.75em;
+      border-radius: 5px;
+  }
+  
+  .budget2 {
+      position: absolute;
+      top: 5em;
+      left: 25.3em;
+      font-size: 45px;    
+  }
+  
+  .budget-answer2 {
+      position: absolute;
+      height: 2em;
+      width: 3em;
+      top: 4.75em;
+      left: 4em;
+      border-radius: 5px;
+  }
+  
+  .next-btn {
+    background-color: #264653;
+    border: 3px solid #e76f51;
+    border-radius: 10px;
     color: #e9c46a;
-    font-size: 4.5vw;
-}
-
-
-.bigBox {
-    border: solid 1px;
-    border-radius: 40px;
-    border-color: #B8B8B8;
-    width: 70%;
-    position: relative;
-    left: 15%;
-    height: 150vh;
-}
-
-.uploadBg {
-    height: 24em;
-    width: 99.4%;
-    margin-top: 0.3%;
-    margin-right: 0.3%;
-    margin-left: 0.3%;
-    border-radius: 40px;
-    border: solid 4px;
-    border-color: #B8B8B8;
-    background: #E7E7E7;
-}
-
-.uploadPp {
+    font-size: 1.5vw;
+    padding: 0.5em 2em;
+    font-family: 'Raleway';
     position: absolute;
-    right: 67%;
-    top: 11.6%;
-    height: 20em;
-    width: 30%;
-    border-radius: 40px;
-    border: solid 4px;
-    border-color: #B8B8B8;
-    background: #E7E7E7;
-    z-index: 1;
-}
+    top: 43em;
+    left: 3em;
+  }
+  
+  .next-btn:hover {
+      background-color: rgba(231, 111, 81, 0.1);
+  }
 
-.nameInput {
-    position: relative; 
-    left: 14%;
-    margin-top: 3.5%;
-    height: 2em;
-    width: 15em;
-    border-radius: 16px;
-    border: solid 1px;
-    border-color: #B8B8B8;
-    font-size: 28px;
-}
-
-.ageInput {
-    position: relative; 
-    left: 18%;
-    
-}
-
-.label {
-    font-size: 1.8em;
-    margin-top: 2%;
-}
-
-.input {
-    margin-top: 2%;
-    height: 2em;
-    width: 4em;
-    border-radius: 16px;
-    border: solid 1px;
-    border-color: #B8B8B8;
-    font-size: 1.8em;
-}
-
-.dropdown {
-    height: 2em;
-    width: 5em;
-    border-radius: 16px;
-    border: solid 1px;
-    border-color: #B8B8B8;
-    font-size: 28px;
-}
-
-.budgetFromLabel {
-    position: relative; 
-    left: 10%;
-}
-
-.budgetFromInput {
-    position: relative; 
-    left: 8%;
-}
-
-.budgetToLabel {
-    position: relative; 
-    left: 24%;
-}
-
-.budgetToInput {
-    position: relative; 
-    left:14%;
-}
-
-.genderLabel {
-    position: relative;
-    left: -6%;
-}
-
-.genderInput {
-    position: relative;
-    left: -5%;
-}
-
-.personalityLabel {
-    position: relative;
-    left: 0%;
-}
-
-.personalityDropdown {
-    position: relative;
-    left: 1%;
-}
-
-.smokesLabel {
-    position: relative;
-    left: 3%;
-}
-
-.smokesDropdown {
-    position: relative;
-    left: 4%;
-}
-
-.petsLabel {
-    position: relative;
-    left: -5%;
-}
-
-.petsDropdown {
-    position: relative;
-    left: -4%
-}
-
-.hygieneLabel {
-    position: relative;
-    left: -2%;
-}
-
-.hygieneDropdown {
-    position: relative;
-    left: -1%;
-}
-
-.religionLabel {
-    position: relative;
-    left: 1%;
-}
-
-.religionDropdown {
-    position: relative;
-    left: 2%;
-}
-
-.aboutLabel {
-    position: relative; 
-    font-size: 28px;
-    left: -39%;
-    margin-top: 2%;
-    width: 4em;
-}
-
-.aboutInput {
-    position: relative; 
-    font-size: 28px;
-    left: -0.5%;
-    margin-top: 2.5%;
-    width: 91%;
-    height: 50vh;
-    border-radius: 16px;
-    border: solid 1px;
-    border-color: #B8B8B8;
-}
+  .switch-mode {
+    background-color: #2a9d8f;
+    border-radius: 100vmax;
+    border-color: #2a9d8f;
+    margin: 3em 0;
+    margin-right: 3vw;
+  }
